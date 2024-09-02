@@ -1,0 +1,453 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{1B218DA7-FFE7-3ED7-8A0A-C7EF40EDE284}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <VcpkgEnabled>false</VcpkgEnabled>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>mbgl-test</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="do_not_import_user.props" Condition="exists('do_not_import_user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Repos\dandan\maplibre-native\build\test\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">mbgl-test.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">mbgl-test</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Repos\dandan\maplibre-native\build\test\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">mbgl-test.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">mbgl-test</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Repos\dandan\maplibre-native\build\test\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">mbgl-test.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">mbgl-test</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Repos\dandan\maplibre-native\build\test\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">mbgl-test.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">mbgl-test</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Repos\dandan\maplibre-native\platform\default\include;C:\Repos\dandan\maplibre-native\src;C:\Repos\dandan\maplibre-native\test\src;C:\Repos\dandan\maplibre-native\include;C:\Repos\dandan\maplibre-native\test\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Repos/dandan/maplibre-native/vendor/mapbox-base/extras/kdbush.hpp/include" /external:I "C:/Repos/dandan/maplibre-native/vendor/mapbox-base/deps/supercluster.hpp/include" /external:I "C:/Repos/dandan/maplibre-native/vendor/mapbox-base/deps/shelf-pack-cpp/include" /external:I "C:/Repos/dandan/maplibre-native/vendor/mapbox-base/deps/geojson-vt-cpp/include" /external:I "C:/Repos/dandan/maplibre-native/vendor/mapbox-base/deps/cheap-ruler-cpp/include" /external:I "C:/Repos/dandan/maplibre-native/vendor/boost/include" /external:I "C:/Repos/dandan/maplibre-native/vendor/csscolorparser" /external:I "C:/Repos/dandan/maplibre-native/vendor/earcut.hpp/include" /external:I "C:/Repos/dandan/maplibre-native/vendor/eternal/include" /external:I "C:/Repos/dandan/maplibre-native/vendor/parsedate" /external:I "C:/Repos/dandan/maplibre-native/vendor/polylabel/include" /external:I "C:/Repos/dandan/maplibre-native/vendor/protozero/include" /external:I "C:/Repos/dandan/maplibre-native/vendor/unique_resource" /external:I "C:/Repos/dandan/maplibre-native/vendor/vector-tile/include" /external:I "C:/Repos/dandan/maplibre-native/vendor/wagyu/include" /external:I "C:/Repos/dandan/maplibre-native/vendor/mapbox-base/include" /external:I "C:/Repos/dandan/maplibre-native/vendor/mapbox-base/extras/expected-lite/include" /external:I "C:/Repos/dandan/maplibre-native/vendor/mapbox-base/deps/geojson.hpp/include" /external:I "C:/Repos/dandan/maplibre-native/vendor/mapbox-base/deps/geometry.hpp/include" /external:I "C:/Repos/dandan/maplibre-native/vendor/mapbox-base/deps/jni.hpp/include" /external:I "C:/Repos/dandan/maplibre-native/vendor/mapbox-base/deps/pixelmatch-cpp/include" /external:I "C:/Repos/dandan/maplibre-native/vendor/mapbox-base/deps/variant/include" /external:I "C:/Repos/dandan/maplibre-native/vendor/mapbox-base/extras/rapidjson/include" /external:I "C:/Repos/dandan/maplibre-native/vendor/unordered_dense/include" /external:I "C:/Repos/dandan/maplibre-native/platform/windows/vendor/vcpkg/installed/x64-windows/include" /external:I "C:/Repos/dandan/maplibre-native/vendor/nunicode/include" /external:I "C:/Repos/dandan/maplibre-native/vendor/sqlite/include" /external:I "C:/Repos/dandan/maplibre-native/vendor/mapbox-base/extras/args" /external:I "C:/Repos/dandan/maplibre-native/vendor/cpp-httplib" /external:I "C:/Repos/dandan/maplibre-native/vendor/googletest/googletest/include" /external:I "C:/Repos/dandan/maplibre-native/vendor/googletest/googlemock/include" /utf-8</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4068</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_USE_MATH_DEFINES;_SILENCE_ALL_CXX17_DEPRECATION_WARNINGS;_CRT_SECURE_NO_WARNINGS;MLN_RENDER_BACKEND_OPENGL=1;TEST_HAS_SERVER=0;CI_BUILD=0;MBGL_BUILDING_LIB;NOMINMAX;GHC_WIN_DISABLE_WSTRING_STORAGE_TYPE;RAPIDJSON_HAS_STDSTRING=1;RAPIDJSON_HAS_CXX11_RVALUE_REFS;MLN_LEGACY_RENDERER=1;MLN_DRAWABLE_RENDERER=0;MLN_USE_UNORDERED_DENSE=1;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;_USE_MATH_DEFINES;_SILENCE_ALL_CXX17_DEPRECATION_WARNINGS;_CRT_SECURE_NO_WARNINGS;MLN_RENDER_BACKEND_OPENGL=1;TEST_HAS_SERVER=0;CI_BUILD=0;MBGL_BUILDING_LIB;NOMINMAX;GHC_WIN_DISABLE_WSTRING_STORAGE_TYPE;RAPIDJSON_HAS_STDSTRING=1;RAPIDJSON_HAS_CXX11_RVALUE_REFS;MLN_LEGACY_RENDERER=1;MLN_DRAWABLE_RENDERER=0;MLN_USE_UNORDERED_DENSE=1;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Repos\dandan\maplibre-native\platform\default\include;C:\Repos\dandan\maplibre-native\src;C:\Repos\dandan\maplibre-native\test\src;C:\Repos\dandan\maplibre-native\include;C:\Repos\dandan\maplibre-native\test\include;C:\Repos\dandan\maplibre-native\vendor\mapbox-base\extras\kdbush.hpp\include;C:\Repos\dandan\maplibre-native\vendor\mapbox-base\deps\supercluster.hpp\include;C:\Repos\dandan\maplibre-native\vendor\mapbox-base\deps\shelf-pack-cpp\include;C:\Repos\dandan\maplibre-native\vendor\mapbox-base\deps\geojson-vt-cpp\include;C:\Repos\dandan\maplibre-native\vendor\mapbox-base\deps\cheap-ruler-cpp\include;C:\Repos\dandan\maplibre-native\vendor\boost\include;C:\Repos\dandan\maplibre-native\vendor\csscolorparser;C:\Repos\dandan\maplibre-native\vendor\earcut.hpp\include;C:\Repos\dandan\maplibre-native\vendor\eternal\include;C:\Repos\dandan\maplibre-native\vendor\parsedate;C:\Repos\dandan\maplibre-native\vendor\polylabel\include;C:\Repos\dandan\maplibre-native\vendor\protozero\include;C:\Repos\dandan\maplibre-native\vendor\unique_resource;C:\Repos\dandan\maplibre-native\vendor\vector-tile\include;C:\Repos\dandan\maplibre-native\vendor\wagyu\include;C:\Repos\dandan\maplibre-native\vendor\mapbox-base\include;C:\Repos\dandan\maplibre-native\vendor\mapbox-base\extras\expected-lite\include;C:\Repos\dandan\maplibre-native\vendor\mapbox-base\deps\geojson.hpp\include;C:\Repos\dandan\maplibre-native\vendor\mapbox-base\deps\geometry.hpp\include;C:\Repos\dandan\maplibre-native\vendor\mapbox-base\deps\jni.hpp\include;C:\Repos\dandan\maplibre-native\vendor\mapbox-base\deps\pixelmatch-cpp\include;C:\Repos\dandan\maplibre-native\vendor\mapbox-base\deps\variant\include;C:\Repos\dandan\maplibre-native\vendor\mapbox-base\extras\rapidjson\include;C:\Repos\dandan\maplibre-native\vendor\unordered_dense\include;C:\Repos\dandan\maplibre-native\platform\windows\vendor\vcpkg\installed\x64-windows\include;C:\Repos\dandan\maplibre-native\vendor\nunicode\include;C:\Repos\dandan\maplibre-native\vendor\sqlite\include;C:\Repos\dandan\maplibre-native\vendor\mapbox-base\extras\args;C:\Repos\dandan\maplibre-native\vendor\cpp-httplib;C:\Repos\dandan\maplibre-native\vendor\googletest\googletest\include;C:\Repos\dandan\maplibre-native\vendor\googletest\googlemock\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Repos\dandan\maplibre-native\platform\default\include;C:\Repos\dandan\maplibre-native\src;C:\Repos\dandan\maplibre-native\test\src;C:\Repos\dandan\maplibre-native\include;C:\Repos\dandan\maplibre-native\test\include;C:\Repos\dandan\maplibre-native\vendor\mapbox-base\extras\kdbush.hpp\include;C:\Repos\dandan\maplibre-native\vendor\mapbox-base\deps\supercluster.hpp\include;C:\Repos\dandan\maplibre-native\vendor\mapbox-base\deps\shelf-pack-cpp\include;C:\Repos\dandan\maplibre-native\vendor\mapbox-base\deps\geojson-vt-cpp\include;C:\Repos\dandan\maplibre-native\vendor\mapbox-base\deps\cheap-ruler-cpp\include;C:\Repos\dandan\maplibre-native\vendor\boost\include;C:\Repos\dandan\maplibre-native\vendor\csscolorparser;C:\Repos\dandan\maplibre-native\vendor\earcut.hpp\include;C:\Repos\dandan\maplibre-native\vendor\eternal\include;C:\Repos\dandan\maplibre-native\vendor\parsedate;C:\Repos\dandan\maplibre-native\vendor\polylabel\include;C:\Repos\dandan\maplibre-native\vendor\protozero\include;C:\Repos\dandan\maplibre-native\vendor\unique_resource;C:\Repos\dandan\maplibre-native\vendor\vector-tile\include;C:\Repos\dandan\maplibre-native\vendor\wagyu\include;C:\Repos\dandan\maplibre-native\vendor\mapbox-base\include;C:\Repos\dandan\maplibre-native\vendor\mapbox-base\extras\expected-lite\include;C:\Repos\dandan\maplibre-native\vendor\mapbox-base\deps\geojson.hpp\include;C:\Repos\dandan\maplibre-native\vendor\mapbox-base\deps\geometry.hpp\include;C:\Repos\dandan\maplibre-native\vendor\mapbox-base\deps\jni.hpp\include;C:\Repos\dandan\maplibre-native\vendor\mapbox-base\deps\pixelmatch-cpp\include;C:\Repos\dandan\maplibre-native\vendor\mapbox-base\deps\variant\include;C:\Repos\dandan\maplibre-native\vendor\mapbox-base\extras\rapidjson\include;C:\Repos\dandan\maplibre-native\vendor\unordered_dense\include;C:\Repos\dandan\maplibre-native\platform\windows\vendor\vcpkg\installed\x64-windows\include;C:\Repos\dandan\maplibre-native\vendor\nunicode\include;C:\Repos\dandan\maplibre-native\vendor\sqlite\include;C:\Repos\dandan\maplibre-native\vendor\mapbox-base\extras\args;C:\Repos\dandan\maplibre-native\vendor\cpp-httplib;C:\Repos\dandan\maplibre-native\vendor\googletest\googletest\include;C:\Repos\dandan\maplibre-native\vendor\googletest\googlemock\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Repos\dandan\maplibre-native\platform\default\include;C:\Repos\dandan\maplibre-native\src;C:\Repos\dandan\maplibre-native\test\src;C:\Repos\dandan\maplibre-native\include;C:\Repos\dandan\maplibre-native\test\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Repos/dandan/maplibre-native/vendor/mapbox-base/extras/kdbush.hpp/include" /external:I "C:/Repos/dandan/maplibre-native/vendor/mapbox-base/deps/supercluster.hpp/include" /external:I "C:/Repos/dandan/maplibre-native/vendor/mapbox-base/deps/shelf-pack-cpp/include" /external:I "C:/Repos/dandan/maplibre-native/vendor/mapbox-base/deps/geojson-vt-cpp/include" /external:I "C:/Repos/dandan/maplibre-native/vendor/mapbox-base/deps/cheap-ruler-cpp/include" /external:I "C:/Repos/dandan/maplibre-native/vendor/boost/include" /external:I "C:/Repos/dandan/maplibre-native/vendor/csscolorparser" /external:I "C:/Repos/dandan/maplibre-native/vendor/earcut.hpp/include" /external:I "C:/Repos/dandan/maplibre-native/vendor/eternal/include" /external:I "C:/Repos/dandan/maplibre-native/vendor/parsedate" /external:I "C:/Repos/dandan/maplibre-native/vendor/polylabel/include" /external:I "C:/Repos/dandan/maplibre-native/vendor/protozero/include" /external:I "C:/Repos/dandan/maplibre-native/vendor/unique_resource" /external:I "C:/Repos/dandan/maplibre-native/vendor/vector-tile/include" /external:I "C:/Repos/dandan/maplibre-native/vendor/wagyu/include" /external:I "C:/Repos/dandan/maplibre-native/vendor/mapbox-base/include" /external:I "C:/Repos/dandan/maplibre-native/vendor/mapbox-base/extras/expected-lite/include" /external:I "C:/Repos/dandan/maplibre-native/vendor/mapbox-base/deps/geojson.hpp/include" /external:I "C:/Repos/dandan/maplibre-native/vendor/mapbox-base/deps/geometry.hpp/include" /external:I "C:/Repos/dandan/maplibre-native/vendor/mapbox-base/deps/jni.hpp/include" /external:I "C:/Repos/dandan/maplibre-native/vendor/mapbox-base/deps/pixelmatch-cpp/include" /external:I "C:/Repos/dandan/maplibre-native/vendor/mapbox-base/deps/variant/include" /external:I "C:/Repos/dandan/maplibre-native/vendor/mapbox-base/extras/rapidjson/include" /external:I "C:/Repos/dandan/maplibre-native/vendor/unordered_dense/include" /external:I "C:/Repos/dandan/maplibre-native/platform/windows/vendor/vcpkg/installed/x64-windows/include" /external:I "C:/Repos/dandan/maplibre-native/vendor/nunicode/include" /external:I "C:/Repos/dandan/maplibre-native/vendor/sqlite/include" /external:I "C:/Repos/dandan/maplibre-native/vendor/mapbox-base/extras/args" /external:I "C:/Repos/dandan/maplibre-native/vendor/cpp-httplib" /external:I "C:/Repos/dandan/maplibre-native/vendor/googletest/googletest/include" /external:I "C:/Repos/dandan/maplibre-native/vendor/googletest/googlemock/include" /utf-8</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DisableSpecificWarnings>4068</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_USE_MATH_DEFINES;_SILENCE_ALL_CXX17_DEPRECATION_WARNINGS;_CRT_SECURE_NO_WARNINGS;MLN_RENDER_BACKEND_OPENGL=1;TEST_HAS_SERVER=0;CI_BUILD=0;MBGL_BUILDING_LIB;NOMINMAX;GHC_WIN_DISABLE_WSTRING_STORAGE_TYPE;RAPIDJSON_HAS_STDSTRING=1;RAPIDJSON_HAS_CXX11_RVALUE_REFS;MLN_LEGACY_RENDERER=1;MLN_DRAWABLE_RENDERER=0;MLN_USE_UNORDERED_DENSE=1;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_USE_MATH_DEFINES;_SILENCE_ALL_CXX17_DEPRECATION_WARNINGS;_CRT_SECURE_NO_WARNINGS;MLN_RENDER_BACKEND_OPENGL=1;TEST_HAS_SERVER=0;CI_BUILD=0;MBGL_BUILDING_LIB;NOMINMAX;GHC_WIN_DISABLE_WSTRING_STORAGE_TYPE;RAPIDJSON_HAS_STDSTRING=1;RAPIDJSON_HAS_CXX11_RVALUE_REFS;MLN_LEGACY_RENDERER=1;MLN_DRAWABLE_RENDERER=0;MLN_USE_UNORDERED_DENSE=1;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Repos\dandan\maplibre-native\platform\default\include;C:\Repos\dandan\maplibre-native\src;C:\Repos\dandan\maplibre-native\test\src;C:\Repos\dandan\maplibre-native\include;C:\Repos\dandan\maplibre-native\test\include;C:\Repos\dandan\maplibre-native\vendor\mapbox-base\extras\kdbush.hpp\include;C:\Repos\dandan\maplibre-native\vendor\mapbox-base\deps\supercluster.hpp\include;C:\Repos\dandan\maplibre-native\vendor\mapbox-base\deps\shelf-pack-cpp\include;C:\Repos\dandan\maplibre-native\vendor\mapbox-base\deps\geojson-vt-cpp\include;C:\Repos\dandan\maplibre-native\vendor\mapbox-base\deps\cheap-ruler-cpp\include;C:\Repos\dandan\maplibre-native\vendor\boost\include;C:\Repos\dandan\maplibre-native\vendor\csscolorparser;C:\Repos\dandan\maplibre-native\vendor\earcut.hpp\include;C:\Repos\dandan\maplibre-native\vendor\eternal\include;C:\Repos\dandan\maplibre-native\vendor\parsedate;C:\Repos\dandan\maplibre-native\vendor\polylabel\include;C:\Repos\dandan\maplibre-native\vendor\protozero\include;C:\Repos\dandan\maplibre-native\vendor\unique_resource;C:\Repos\dandan\maplibre-native\vendor\vector-tile\include;C:\Repos\dandan\maplibre-native\vendor\wagyu\include;C:\Repos\dandan\maplibre-native\vendor\mapbox-base\include;C:\Repos\dandan\maplibre-native\vendor\mapbox-base\extras\expected-lite\include;C:\Repos\dandan\maplibre-native\vendor\mapbox-base\deps\geojson.hpp\include;C:\Repos\dandan\maplibre-native\vendor\mapbox-base\deps\geometry.hpp\include;C:\Repos\dandan\maplibre-native\vendor\mapbox-base\deps\jni.hpp\include;C:\Repos\dandan\maplibre-native\vendor\mapbox-base\deps\pixelmatch-cpp\include;C:\Repos\dandan\maplibre-native\vendor\mapbox-base\deps\variant\include;C:\Repos\dandan\maplibre-native\vendor\mapbox-base\extras\rapidjson\include;C:\Repos\dandan\maplibre-native\vendor\unordered_dense\include;C:\Repos\dandan\maplibre-native\platform\windows\vendor\vcpkg\installed\x64-windows\include;C:\Repos\dandan\maplibre-native\vendor\nunicode\include;C:\Repos\dandan\maplibre-native\vendor\sqlite\include;C:\Repos\dandan\maplibre-native\vendor\mapbox-base\extras\args;C:\Repos\dandan\maplibre-native\vendor\cpp-httplib;C:\Repos\dandan\maplibre-native\vendor\googletest\googletest\include;C:\Repos\dandan\maplibre-native\vendor\googletest\googlemock\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Repos\dandan\maplibre-native\platform\default\include;C:\Repos\dandan\maplibre-native\src;C:\Repos\dandan\maplibre-native\test\src;C:\Repos\dandan\maplibre-native\include;C:\Repos\dandan\maplibre-native\test\include;C:\Repos\dandan\maplibre-native\vendor\mapbox-base\extras\kdbush.hpp\include;C:\Repos\dandan\maplibre-native\vendor\mapbox-base\deps\supercluster.hpp\include;C:\Repos\dandan\maplibre-native\vendor\mapbox-base\deps\shelf-pack-cpp\include;C:\Repos\dandan\maplibre-native\vendor\mapbox-base\deps\geojson-vt-cpp\include;C:\Repos\dandan\maplibre-native\vendor\mapbox-base\deps\cheap-ruler-cpp\include;C:\Repos\dandan\maplibre-native\vendor\boost\include;C:\Repos\dandan\maplibre-native\vendor\csscolorparser;C:\Repos\dandan\maplibre-native\vendor\earcut.hpp\include;C:\Repos\dandan\maplibre-native\vendor\eternal\include;C:\Repos\dandan\maplibre-native\vendor\parsedate;C:\Repos\dandan\maplibre-native\vendor\polylabel\include;C:\Repos\dandan\maplibre-native\vendor\protozero\include;C:\Repos\dandan\maplibre-native\vendor\unique_resource;C:\Repos\dandan\maplibre-native\vendor\vector-tile\include;C:\Repos\dandan\maplibre-native\vendor\wagyu\include;C:\Repos\dandan\maplibre-native\vendor\mapbox-base\include;C:\Repos\dandan\maplibre-native\vendor\mapbox-base\extras\expected-lite\include;C:\Repos\dandan\maplibre-native\vendor\mapbox-base\deps\geojson.hpp\include;C:\Repos\dandan\maplibre-native\vendor\mapbox-base\deps\geometry.hpp\include;C:\Repos\dandan\maplibre-native\vendor\mapbox-base\deps\jni.hpp\include;C:\Repos\dandan\maplibre-native\vendor\mapbox-base\deps\pixelmatch-cpp\include;C:\Repos\dandan\maplibre-native\vendor\mapbox-base\deps\variant\include;C:\Repos\dandan\maplibre-native\vendor\mapbox-base\extras\rapidjson\include;C:\Repos\dandan\maplibre-native\vendor\unordered_dense\include;C:\Repos\dandan\maplibre-native\platform\windows\vendor\vcpkg\installed\x64-windows\include;C:\Repos\dandan\maplibre-native\vendor\nunicode\include;C:\Repos\dandan\maplibre-native\vendor\sqlite\include;C:\Repos\dandan\maplibre-native\vendor\mapbox-base\extras\args;C:\Repos\dandan\maplibre-native\vendor\cpp-httplib;C:\Repos\dandan\maplibre-native\vendor\googletest\googletest\include;C:\Repos\dandan\maplibre-native\vendor\googletest\googlemock\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Repos\dandan\maplibre-native\platform\default\include;C:\Repos\dandan\maplibre-native\src;C:\Repos\dandan\maplibre-native\test\src;C:\Repos\dandan\maplibre-native\include;C:\Repos\dandan\maplibre-native\test\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Repos/dandan/maplibre-native/vendor/mapbox-base/extras/kdbush.hpp/include" /external:I "C:/Repos/dandan/maplibre-native/vendor/mapbox-base/deps/supercluster.hpp/include" /external:I "C:/Repos/dandan/maplibre-native/vendor/mapbox-base/deps/shelf-pack-cpp/include" /external:I "C:/Repos/dandan/maplibre-native/vendor/mapbox-base/deps/geojson-vt-cpp/include" /external:I "C:/Repos/dandan/maplibre-native/vendor/mapbox-base/deps/cheap-ruler-cpp/include" /external:I "C:/Repos/dandan/maplibre-native/vendor/boost/include" /external:I "C:/Repos/dandan/maplibre-native/vendor/csscolorparser" /external:I "C:/Repos/dandan/maplibre-native/vendor/earcut.hpp/include" /external:I "C:/Repos/dandan/maplibre-native/vendor/eternal/include" /external:I "C:/Repos/dandan/maplibre-native/vendor/parsedate" /external:I "C:/Repos/dandan/maplibre-native/vendor/polylabel/include" /external:I "C:/Repos/dandan/maplibre-native/vendor/protozero/include" /external:I "C:/Repos/dandan/maplibre-native/vendor/unique_resource" /external:I "C:/Repos/dandan/maplibre-native/vendor/vector-tile/include" /external:I "C:/Repos/dandan/maplibre-native/vendor/wagyu/include" /external:I "C:/Repos/dandan/maplibre-native/vendor/mapbox-base/include" /external:I "C:/Repos/dandan/maplibre-native/vendor/mapbox-base/extras/expected-lite/include" /external:I "C:/Repos/dandan/maplibre-native/vendor/mapbox-base/deps/geojson.hpp/include" /external:I "C:/Repos/dandan/maplibre-native/vendor/mapbox-base/deps/geometry.hpp/include" /external:I "C:/Repos/dandan/maplibre-native/vendor/mapbox-base/deps/jni.hpp/include" /external:I "C:/Repos/dandan/maplibre-native/vendor/mapbox-base/deps/pixelmatch-cpp/include" /external:I "C:/Repos/dandan/maplibre-native/vendor/mapbox-base/deps/variant/include" /external:I "C:/Repos/dandan/maplibre-native/vendor/mapbox-base/extras/rapidjson/include" /external:I "C:/Repos/dandan/maplibre-native/vendor/unordered_dense/include" /external:I "C:/Repos/dandan/maplibre-native/platform/windows/vendor/vcpkg/installed/x64-windows/include" /external:I "C:/Repos/dandan/maplibre-native/vendor/nunicode/include" /external:I "C:/Repos/dandan/maplibre-native/vendor/sqlite/include" /external:I "C:/Repos/dandan/maplibre-native/vendor/mapbox-base/extras/args" /external:I "C:/Repos/dandan/maplibre-native/vendor/cpp-httplib" /external:I "C:/Repos/dandan/maplibre-native/vendor/googletest/googletest/include" /external:I "C:/Repos/dandan/maplibre-native/vendor/googletest/googlemock/include" /utf-8</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DisableSpecificWarnings>4068</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_USE_MATH_DEFINES;_SILENCE_ALL_CXX17_DEPRECATION_WARNINGS;_CRT_SECURE_NO_WARNINGS;MLN_RENDER_BACKEND_OPENGL=1;TEST_HAS_SERVER=0;CI_BUILD=0;MBGL_BUILDING_LIB;NOMINMAX;GHC_WIN_DISABLE_WSTRING_STORAGE_TYPE;RAPIDJSON_HAS_STDSTRING=1;RAPIDJSON_HAS_CXX11_RVALUE_REFS;MLN_LEGACY_RENDERER=1;MLN_DRAWABLE_RENDERER=0;MLN_USE_UNORDERED_DENSE=1;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_USE_MATH_DEFINES;_SILENCE_ALL_CXX17_DEPRECATION_WARNINGS;_CRT_SECURE_NO_WARNINGS;MLN_RENDER_BACKEND_OPENGL=1;TEST_HAS_SERVER=0;CI_BUILD=0;MBGL_BUILDING_LIB;NOMINMAX;GHC_WIN_DISABLE_WSTRING_STORAGE_TYPE;RAPIDJSON_HAS_STDSTRING=1;RAPIDJSON_HAS_CXX11_RVALUE_REFS;MLN_LEGACY_RENDERER=1;MLN_DRAWABLE_RENDERER=0;MLN_USE_UNORDERED_DENSE=1;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Repos\dandan\maplibre-native\platform\default\include;C:\Repos\dandan\maplibre-native\src;C:\Repos\dandan\maplibre-native\test\src;C:\Repos\dandan\maplibre-native\include;C:\Repos\dandan\maplibre-native\test\include;C:\Repos\dandan\maplibre-native\vendor\mapbox-base\extras\kdbush.hpp\include;C:\Repos\dandan\maplibre-native\vendor\mapbox-base\deps\supercluster.hpp\include;C:\Repos\dandan\maplibre-native\vendor\mapbox-base\deps\shelf-pack-cpp\include;C:\Repos\dandan\maplibre-native\vendor\mapbox-base\deps\geojson-vt-cpp\include;C:\Repos\dandan\maplibre-native\vendor\mapbox-base\deps\cheap-ruler-cpp\include;C:\Repos\dandan\maplibre-native\vendor\boost\include;C:\Repos\dandan\maplibre-native\vendor\csscolorparser;C:\Repos\dandan\maplibre-native\vendor\earcut.hpp\include;C:\Repos\dandan\maplibre-native\vendor\eternal\include;C:\Repos\dandan\maplibre-native\vendor\parsedate;C:\Repos\dandan\maplibre-native\vendor\polylabel\include;C:\Repos\dandan\maplibre-native\vendor\protozero\include;C:\Repos\dandan\maplibre-native\vendor\unique_resource;C:\Repos\dandan\maplibre-native\vendor\vector-tile\include;C:\Repos\dandan\maplibre-native\vendor\wagyu\include;C:\Repos\dandan\maplibre-native\vendor\mapbox-base\include;C:\Repos\dandan\maplibre-native\vendor\mapbox-base\extras\expected-lite\include;C:\Repos\dandan\maplibre-native\vendor\mapbox-base\deps\geojson.hpp\include;C:\Repos\dandan\maplibre-native\vendor\mapbox-base\deps\geometry.hpp\include;C:\Repos\dandan\maplibre-native\vendor\mapbox-base\deps\jni.hpp\include;C:\Repos\dandan\maplibre-native\vendor\mapbox-base\deps\pixelmatch-cpp\include;C:\Repos\dandan\maplibre-native\vendor\mapbox-base\deps\variant\include;C:\Repos\dandan\maplibre-native\vendor\mapbox-base\extras\rapidjson\include;C:\Repos\dandan\maplibre-native\vendor\unordered_dense\include;C:\Repos\dandan\maplibre-native\platform\windows\vendor\vcpkg\installed\x64-windows\include;C:\Repos\dandan\maplibre-native\vendor\nunicode\include;C:\Repos\dandan\maplibre-native\vendor\sqlite\include;C:\Repos\dandan\maplibre-native\vendor\mapbox-base\extras\args;C:\Repos\dandan\maplibre-native\vendor\cpp-httplib;C:\Repos\dandan\maplibre-native\vendor\googletest\googletest\include;C:\Repos\dandan\maplibre-native\vendor\googletest\googlemock\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Repos\dandan\maplibre-native\platform\default\include;C:\Repos\dandan\maplibre-native\src;C:\Repos\dandan\maplibre-native\test\src;C:\Repos\dandan\maplibre-native\include;C:\Repos\dandan\maplibre-native\test\include;C:\Repos\dandan\maplibre-native\vendor\mapbox-base\extras\kdbush.hpp\include;C:\Repos\dandan\maplibre-native\vendor\mapbox-base\deps\supercluster.hpp\include;C:\Repos\dandan\maplibre-native\vendor\mapbox-base\deps\shelf-pack-cpp\include;C:\Repos\dandan\maplibre-native\vendor\mapbox-base\deps\geojson-vt-cpp\include;C:\Repos\dandan\maplibre-native\vendor\mapbox-base\deps\cheap-ruler-cpp\include;C:\Repos\dandan\maplibre-native\vendor\boost\include;C:\Repos\dandan\maplibre-native\vendor\csscolorparser;C:\Repos\dandan\maplibre-native\vendor\earcut.hpp\include;C:\Repos\dandan\maplibre-native\vendor\eternal\include;C:\Repos\dandan\maplibre-native\vendor\parsedate;C:\Repos\dandan\maplibre-native\vendor\polylabel\include;C:\Repos\dandan\maplibre-native\vendor\protozero\include;C:\Repos\dandan\maplibre-native\vendor\unique_resource;C:\Repos\dandan\maplibre-native\vendor\vector-tile\include;C:\Repos\dandan\maplibre-native\vendor\wagyu\include;C:\Repos\dandan\maplibre-native\vendor\mapbox-base\include;C:\Repos\dandan\maplibre-native\vendor\mapbox-base\extras\expected-lite\include;C:\Repos\dandan\maplibre-native\vendor\mapbox-base\deps\geojson.hpp\include;C:\Repos\dandan\maplibre-native\vendor\mapbox-base\deps\geometry.hpp\include;C:\Repos\dandan\maplibre-native\vendor\mapbox-base\deps\jni.hpp\include;C:\Repos\dandan\maplibre-native\vendor\mapbox-base\deps\pixelmatch-cpp\include;C:\Repos\dandan\maplibre-native\vendor\mapbox-base\deps\variant\include;C:\Repos\dandan\maplibre-native\vendor\mapbox-base\extras\rapidjson\include;C:\Repos\dandan\maplibre-native\vendor\unordered_dense\include;C:\Repos\dandan\maplibre-native\platform\windows\vendor\vcpkg\installed\x64-windows\include;C:\Repos\dandan\maplibre-native\vendor\nunicode\include;C:\Repos\dandan\maplibre-native\vendor\sqlite\include;C:\Repos\dandan\maplibre-native\vendor\mapbox-base\extras\args;C:\Repos\dandan\maplibre-native\vendor\cpp-httplib;C:\Repos\dandan\maplibre-native\vendor\googletest\googletest\include;C:\Repos\dandan\maplibre-native\vendor\googletest\googlemock\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Repos\dandan\maplibre-native\platform\default\include;C:\Repos\dandan\maplibre-native\src;C:\Repos\dandan\maplibre-native\test\src;C:\Repos\dandan\maplibre-native\include;C:\Repos\dandan\maplibre-native\test\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Repos/dandan/maplibre-native/vendor/mapbox-base/extras/kdbush.hpp/include" /external:I "C:/Repos/dandan/maplibre-native/vendor/mapbox-base/deps/supercluster.hpp/include" /external:I "C:/Repos/dandan/maplibre-native/vendor/mapbox-base/deps/shelf-pack-cpp/include" /external:I "C:/Repos/dandan/maplibre-native/vendor/mapbox-base/deps/geojson-vt-cpp/include" /external:I "C:/Repos/dandan/maplibre-native/vendor/mapbox-base/deps/cheap-ruler-cpp/include" /external:I "C:/Repos/dandan/maplibre-native/vendor/boost/include" /external:I "C:/Repos/dandan/maplibre-native/vendor/csscolorparser" /external:I "C:/Repos/dandan/maplibre-native/vendor/earcut.hpp/include" /external:I "C:/Repos/dandan/maplibre-native/vendor/eternal/include" /external:I "C:/Repos/dandan/maplibre-native/vendor/parsedate" /external:I "C:/Repos/dandan/maplibre-native/vendor/polylabel/include" /external:I "C:/Repos/dandan/maplibre-native/vendor/protozero/include" /external:I "C:/Repos/dandan/maplibre-native/vendor/unique_resource" /external:I "C:/Repos/dandan/maplibre-native/vendor/vector-tile/include" /external:I "C:/Repos/dandan/maplibre-native/vendor/wagyu/include" /external:I "C:/Repos/dandan/maplibre-native/vendor/mapbox-base/include" /external:I "C:/Repos/dandan/maplibre-native/vendor/mapbox-base/extras/expected-lite/include" /external:I "C:/Repos/dandan/maplibre-native/vendor/mapbox-base/deps/geojson.hpp/include" /external:I "C:/Repos/dandan/maplibre-native/vendor/mapbox-base/deps/geometry.hpp/include" /external:I "C:/Repos/dandan/maplibre-native/vendor/mapbox-base/deps/jni.hpp/include" /external:I "C:/Repos/dandan/maplibre-native/vendor/mapbox-base/deps/pixelmatch-cpp/include" /external:I "C:/Repos/dandan/maplibre-native/vendor/mapbox-base/deps/variant/include" /external:I "C:/Repos/dandan/maplibre-native/vendor/mapbox-base/extras/rapidjson/include" /external:I "C:/Repos/dandan/maplibre-native/vendor/unordered_dense/include" /external:I "C:/Repos/dandan/maplibre-native/platform/windows/vendor/vcpkg/installed/x64-windows/include" /external:I "C:/Repos/dandan/maplibre-native/vendor/nunicode/include" /external:I "C:/Repos/dandan/maplibre-native/vendor/sqlite/include" /external:I "C:/Repos/dandan/maplibre-native/vendor/mapbox-base/extras/args" /external:I "C:/Repos/dandan/maplibre-native/vendor/cpp-httplib" /external:I "C:/Repos/dandan/maplibre-native/vendor/googletest/googletest/include" /external:I "C:/Repos/dandan/maplibre-native/vendor/googletest/googlemock/include" /utf-8</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4068</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_USE_MATH_DEFINES;_SILENCE_ALL_CXX17_DEPRECATION_WARNINGS;_CRT_SECURE_NO_WARNINGS;MLN_RENDER_BACKEND_OPENGL=1;TEST_HAS_SERVER=0;CI_BUILD=0;MBGL_BUILDING_LIB;NOMINMAX;GHC_WIN_DISABLE_WSTRING_STORAGE_TYPE;RAPIDJSON_HAS_STDSTRING=1;RAPIDJSON_HAS_CXX11_RVALUE_REFS;MLN_LEGACY_RENDERER=1;MLN_DRAWABLE_RENDERER=0;MLN_USE_UNORDERED_DENSE=1;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_USE_MATH_DEFINES;_SILENCE_ALL_CXX17_DEPRECATION_WARNINGS;_CRT_SECURE_NO_WARNINGS;MLN_RENDER_BACKEND_OPENGL=1;TEST_HAS_SERVER=0;CI_BUILD=0;MBGL_BUILDING_LIB;NOMINMAX;GHC_WIN_DISABLE_WSTRING_STORAGE_TYPE;RAPIDJSON_HAS_STDSTRING=1;RAPIDJSON_HAS_CXX11_RVALUE_REFS;MLN_LEGACY_RENDERER=1;MLN_DRAWABLE_RENDERER=0;MLN_USE_UNORDERED_DENSE=1;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Repos\dandan\maplibre-native\platform\default\include;C:\Repos\dandan\maplibre-native\src;C:\Repos\dandan\maplibre-native\test\src;C:\Repos\dandan\maplibre-native\include;C:\Repos\dandan\maplibre-native\test\include;C:\Repos\dandan\maplibre-native\vendor\mapbox-base\extras\kdbush.hpp\include;C:\Repos\dandan\maplibre-native\vendor\mapbox-base\deps\supercluster.hpp\include;C:\Repos\dandan\maplibre-native\vendor\mapbox-base\deps\shelf-pack-cpp\include;C:\Repos\dandan\maplibre-native\vendor\mapbox-base\deps\geojson-vt-cpp\include;C:\Repos\dandan\maplibre-native\vendor\mapbox-base\deps\cheap-ruler-cpp\include;C:\Repos\dandan\maplibre-native\vendor\boost\include;C:\Repos\dandan\maplibre-native\vendor\csscolorparser;C:\Repos\dandan\maplibre-native\vendor\earcut.hpp\include;C:\Repos\dandan\maplibre-native\vendor\eternal\include;C:\Repos\dandan\maplibre-native\vendor\parsedate;C:\Repos\dandan\maplibre-native\vendor\polylabel\include;C:\Repos\dandan\maplibre-native\vendor\protozero\include;C:\Repos\dandan\maplibre-native\vendor\unique_resource;C:\Repos\dandan\maplibre-native\vendor\vector-tile\include;C:\Repos\dandan\maplibre-native\vendor\wagyu\include;C:\Repos\dandan\maplibre-native\vendor\mapbox-base\include;C:\Repos\dandan\maplibre-native\vendor\mapbox-base\extras\expected-lite\include;C:\Repos\dandan\maplibre-native\vendor\mapbox-base\deps\geojson.hpp\include;C:\Repos\dandan\maplibre-native\vendor\mapbox-base\deps\geometry.hpp\include;C:\Repos\dandan\maplibre-native\vendor\mapbox-base\deps\jni.hpp\include;C:\Repos\dandan\maplibre-native\vendor\mapbox-base\deps\pixelmatch-cpp\include;C:\Repos\dandan\maplibre-native\vendor\mapbox-base\deps\variant\include;C:\Repos\dandan\maplibre-native\vendor\mapbox-base\extras\rapidjson\include;C:\Repos\dandan\maplibre-native\vendor\unordered_dense\include;C:\Repos\dandan\maplibre-native\platform\windows\vendor\vcpkg\installed\x64-windows\include;C:\Repos\dandan\maplibre-native\vendor\nunicode\include;C:\Repos\dandan\maplibre-native\vendor\sqlite\include;C:\Repos\dandan\maplibre-native\vendor\mapbox-base\extras\args;C:\Repos\dandan\maplibre-native\vendor\cpp-httplib;C:\Repos\dandan\maplibre-native\vendor\googletest\googletest\include;C:\Repos\dandan\maplibre-native\vendor\googletest\googlemock\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Repos\dandan\maplibre-native\platform\default\include;C:\Repos\dandan\maplibre-native\src;C:\Repos\dandan\maplibre-native\test\src;C:\Repos\dandan\maplibre-native\include;C:\Repos\dandan\maplibre-native\test\include;C:\Repos\dandan\maplibre-native\vendor\mapbox-base\extras\kdbush.hpp\include;C:\Repos\dandan\maplibre-native\vendor\mapbox-base\deps\supercluster.hpp\include;C:\Repos\dandan\maplibre-native\vendor\mapbox-base\deps\shelf-pack-cpp\include;C:\Repos\dandan\maplibre-native\vendor\mapbox-base\deps\geojson-vt-cpp\include;C:\Repos\dandan\maplibre-native\vendor\mapbox-base\deps\cheap-ruler-cpp\include;C:\Repos\dandan\maplibre-native\vendor\boost\include;C:\Repos\dandan\maplibre-native\vendor\csscolorparser;C:\Repos\dandan\maplibre-native\vendor\earcut.hpp\include;C:\Repos\dandan\maplibre-native\vendor\eternal\include;C:\Repos\dandan\maplibre-native\vendor\parsedate;C:\Repos\dandan\maplibre-native\vendor\polylabel\include;C:\Repos\dandan\maplibre-native\vendor\protozero\include;C:\Repos\dandan\maplibre-native\vendor\unique_resource;C:\Repos\dandan\maplibre-native\vendor\vector-tile\include;C:\Repos\dandan\maplibre-native\vendor\wagyu\include;C:\Repos\dandan\maplibre-native\vendor\mapbox-base\include;C:\Repos\dandan\maplibre-native\vendor\mapbox-base\extras\expected-lite\include;C:\Repos\dandan\maplibre-native\vendor\mapbox-base\deps\geojson.hpp\include;C:\Repos\dandan\maplibre-native\vendor\mapbox-base\deps\geometry.hpp\include;C:\Repos\dandan\maplibre-native\vendor\mapbox-base\deps\jni.hpp\include;C:\Repos\dandan\maplibre-native\vendor\mapbox-base\deps\pixelmatch-cpp\include;C:\Repos\dandan\maplibre-native\vendor\mapbox-base\deps\variant\include;C:\Repos\dandan\maplibre-native\vendor\mapbox-base\extras\rapidjson\include;C:\Repos\dandan\maplibre-native\vendor\unordered_dense\include;C:\Repos\dandan\maplibre-native\platform\windows\vendor\vcpkg\installed\x64-windows\include;C:\Repos\dandan\maplibre-native\vendor\nunicode\include;C:\Repos\dandan\maplibre-native\vendor\sqlite\include;C:\Repos\dandan\maplibre-native\vendor\mapbox-base\extras\args;C:\Repos\dandan\maplibre-native\vendor\cpp-httplib;C:\Repos\dandan\maplibre-native\vendor\googletest\googletest\include;C:\Repos\dandan\maplibre-native\vendor\googletest\googlemock\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Repos\dandan\maplibre-native\test\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Repos/dandan/maplibre-native/test/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Repos/dandan/maplibre-native -BC:/Repos/dandan/maplibre-native/build --check-stamp-file C:/Repos/dandan/maplibre-native/build/test/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Repos\dandan\maplibre-native\vendor\cpp-httplib.cmake;C:\Repos\dandan\maplibre-native\vendor\googletest.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Repos\dandan\maplibre-native\build\test\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Repos/dandan/maplibre-native/test/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Repos/dandan/maplibre-native -BC:/Repos/dandan/maplibre-native/build --check-stamp-file C:/Repos/dandan/maplibre-native/build/test/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Repos\dandan\maplibre-native\vendor\cpp-httplib.cmake;C:\Repos\dandan\maplibre-native\vendor\googletest.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Repos\dandan\maplibre-native\build\test\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Repos/dandan/maplibre-native/test/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Repos/dandan/maplibre-native -BC:/Repos/dandan/maplibre-native/build --check-stamp-file C:/Repos/dandan/maplibre-native/build/test/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Repos\dandan\maplibre-native\vendor\cpp-httplib.cmake;C:\Repos\dandan\maplibre-native\vendor\googletest.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Repos\dandan\maplibre-native\build\test\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Repos/dandan/maplibre-native/test/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Repos/dandan/maplibre-native -BC:/Repos/dandan/maplibre-native/build --check-stamp-file C:/Repos/dandan/maplibre-native/build/test/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Repos\dandan\maplibre-native\vendor\cpp-httplib.cmake;C:\Repos\dandan\maplibre-native\vendor\googletest.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Repos\dandan\maplibre-native\build\test\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\test\actor\actor.test.cpp" />
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\test\actor\actor_ref.test.cpp" />
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\test\algorithm\update_renderables.test.cpp" />
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\test\algorithm\update_tile_masks.test.cpp" />
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\test\api\annotations.test.cpp" />
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\test\api\api_misuse.test.cpp" />
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\test\api\custom_geometry_source.test.cpp" />
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\test\api\query.test.cpp" />
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\test\api\recycle_map.cpp" />
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\test\geometry\dem_data.test.cpp" />
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\test\geometry\line_atlas.test.cpp" />
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\test\map\map.test.cpp" />
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\test\map\prefetch.test.cpp" />
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\test\map\transform.test.cpp" />
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\test\math\clamp.test.cpp" />
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\test\math\minmax.test.cpp" />
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\test\math\wrap.test.cpp" />
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\test\platform\settings.test.cpp" />
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\test\programs\symbol_program.test.cpp" />
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\test\renderer\image_manager.test.cpp" />
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\test\renderer\pattern_atlas.test.cpp" />
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\test\renderer\shader_registry.test.cpp" />
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\test\sprite\sprite_loader.test.cpp" />
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\test\sprite\sprite_parser.test.cpp" />
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\test\src\mbgl\test\fixture_log_observer.cpp" />
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\test\src\mbgl\test\getrss.cpp" />
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\test\src\mbgl\test\sqlite3_test_fs.cpp" />
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\test\src\mbgl\test\stub_file_source.cpp" />
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\test\src\mbgl\test\test.cpp" />
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\test\src\mbgl\test\util.cpp" />
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\test\storage\asset_file_source.test.cpp" />
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\test\storage\database_file_source.test.cpp" />
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\test\storage\headers.test.cpp" />
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\test\storage\http_file_source.test.cpp" />
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\test\storage\local_file_source.test.cpp" />
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\test\storage\main_resource_loader.test.cpp" />
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\test\storage\mbtiles_file_source.test.cpp" />
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\test\storage\offline.test.cpp" />
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\test\storage\offline_database.test.cpp" />
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\test\storage\offline_download.test.cpp" />
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\test\storage\online_file_source.test.cpp" />
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\test\storage\resource.test.cpp" />
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\test\storage\sqlite.test.cpp" />
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\test\style\conversion\conversion_impl.test.cpp" />
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\test\style\conversion\function.test.cpp" />
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\test\style\conversion\geojson_options.test.cpp" />
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\test\style\conversion\layer.test.cpp" />
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\test\style\conversion\light.test.cpp" />
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\test\style\conversion\property_value.test.cpp" />
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\test\style\conversion\stringify.test.cpp" />
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\test\style\conversion\tileset.test.cpp" />
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\test\style\expression\dependency.test.cpp" />
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\test\style\expression\expression.test.cpp" />
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\test\style\expression\util.test.cpp" />
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\test\style\filter.test.cpp" />
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\test\style\properties.test.cpp" />
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\test\style\property_expression.test.cpp" />
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\test\style\source.test.cpp" />
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\test\style\style.test.cpp" />
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\test\style\style_image.test.cpp" />
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\test\style\style_layer.test.cpp" />
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\test\style\style_parser.test.cpp" />
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\test\text\calculate_tile_distances.test.cpp" />
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\test\text\cross_tile_symbol_index.test.cpp" />
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\test\text\formatted.test.cpp" />
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\test\text\get_anchors.test.cpp" />
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\test\text\glyph_manager.test.cpp" />
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\test\text\glyph_pbf.test.cpp" />
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\test\text\language_tag.test.cpp" />
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\test\text\local_glyph_rasterizer.test.cpp" />
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\test\text\quads.test.cpp" />
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\test\text\shaping.test.cpp" />
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\test\text\tagged_string.test.cpp" />
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\test\tile\custom_geometry_tile.test.cpp" />
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\test\tile\geojson_tile.test.cpp" />
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\test\tile\geometry_tile_data.test.cpp" />
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\test\tile\raster_dem_tile.test.cpp" />
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\test\tile\raster_tile.test.cpp" />
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\test\tile\tile_cache.test.cpp" />
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\test\tile\tile_coordinate.test.cpp" />
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\test\tile\tile_id.test.cpp" />
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\test\tile\vector_tile.test.cpp" />
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\test\util\async_task.test.cpp" />
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\test\util\bounding_volumes.test.cpp" />
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\test\util\camera.test.cpp" />
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\test\util\geo.test.cpp" />
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\test\util\grid_index.test.cpp" />
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\test\util\hash.test.cpp" />
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\test\util\http_timeout.test.cpp" />
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\test\util\image.test.cpp" />
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\test\util\mapbox.test.cpp" />
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\test\util\memory.test.cpp" />
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\test\util\merge_lines.test.cpp" />
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\test\util\number_conversions.test.cpp" />
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\test\util\position.test.cpp" />
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\test\util\projection.test.cpp" />
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\test\util\rotation.test.cpp" />
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\test\util\run_loop.test.cpp" />
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\test\util\string.test.cpp" />
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\test\util\string_indexer.test.cpp" />
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\test\util\text_conversions.test.cpp" />
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\test\util\thread.test.cpp" />
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\test\util\thread_local.test.cpp" />
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\test\util\tile_cover.test.cpp" />
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\test\util\tile_range.test.cpp" />
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\test\util\timer.test.cpp" />
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\test\util\tiny_map.test.cpp" />
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\test\util\token.test.cpp" />
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\test\util\url.test.cpp" />
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\test\util\tile_server_options.test.cpp" />
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\test\util\lru_cache.test.cpp" />
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\platform\default\src\mbgl\map\map_snapshotter.cpp" />
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\test\map\map_snapshotter.test.cpp" />
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\test\api\custom_layer.test.cpp" />
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\test\api\custom_drawable_layer.test.cpp" />
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\test\gl\bucket.test.cpp" />
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\test\gl\enum.test.cpp" />
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\test\gl\context.test.cpp" />
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\test\gl\gl_functions.test.cpp" />
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\test\gl\object.test.cpp" />
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\test\gl\resource_pool.test.cpp" />
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\test\renderer\backend_scope.test.cpp" />
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\test\util\offscreen_texture.test.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Repos\dandan\maplibre-native\build\ZERO_CHECK.vcxproj">
+      <Project>{8098006B-2B9F-3B91-AA9E-6C3FF087FFA1}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Repos\dandan\maplibre-native\build\mbgl-core.vcxproj">
+      <Project>{85B3BD45-1EEC-31BF-A4F2-74F38BE7A506}</Project>
+      <Name>mbgl-core</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Repos\dandan\maplibre-native\build\mbgl-vendor-csscolorparser.vcxproj">
+      <Project>{6F60BC11-ABBF-33B3-83AA-29D63AA855EA}</Project>
+      <Name>mbgl-vendor-csscolorparser</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Repos\dandan\maplibre-native\build\test\mbgl-vendor-googletest.vcxproj">
+      <Project>{7B2FECAB-0047-3F61-A6E0-7E5329CA46C2}</Project>
+      <Name>mbgl-vendor-googletest</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Repos\dandan\maplibre-native\build\mbgl-vendor-nunicode.vcxproj">
+      <Project>{D34F8DB4-D498-3997-A4FC-FADC28A76CEC}</Project>
+      <Name>mbgl-vendor-nunicode</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Repos\dandan\maplibre-native\build\mbgl-vendor-parsedate.vcxproj">
+      <Project>{851592ED-6742-312A-B546-567384F21DAB}</Project>
+      <Name>mbgl-vendor-parsedate</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Repos\dandan\maplibre-native\build\mbgl-vendor-sqlite.vcxproj">
+      <Project>{BD675F4F-35FA-3E03-A726-283259A75332}</Project>
+      <Name>mbgl-vendor-sqlite</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

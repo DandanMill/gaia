@@ -1,0 +1,16 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeFindDependencyMacro.cmake
+C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake
+C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CheckIncludeFile.cmake
+C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CheckLibraryExists.cmake
+C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/FindOpenGL.cmake
+C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/FindPackageMessage.cmake
+C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/FindThreads.cmake
+C:/Repos/dandan/maplibre-native/platform/glfw/CMakeLists.txt
+C:/Repos/dandan/maplibre-native/platform/windows/vendor/vcpkg/installed/x64-windows/share/glfw3/glfw3Config.cmake
+C:/Repos/dandan/maplibre-native/platform/windows/vendor/vcpkg/installed/x64-windows/share/glfw3/glfw3ConfigVersion.cmake
+C:/Repos/dandan/maplibre-native/platform/windows/vendor/vcpkg/installed/x64-windows/share/glfw3/glfw3Targets-debug.cmake
+C:/Repos/dandan/maplibre-native/platform/windows/vendor/vcpkg/installed/x64-windows/share/glfw3/glfw3Targets-release.cmake
+C:/Repos/dandan/maplibre-native/platform/windows/vendor/vcpkg/installed/x64-windows/share/glfw3/glfw3Targets.cmake
+C:/Repos/dandan/maplibre-native/platform/windows/vendor/vcpkg/installed/x64-windows/share/libuv/libuvConfig.cmake

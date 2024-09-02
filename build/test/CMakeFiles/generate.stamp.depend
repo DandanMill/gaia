@@ -1,0 +1,4 @@
+# CMake generation dependency list for this directory.
+C:/Repos/dandan/maplibre-native/test/CMakeLists.txt
+C:/Repos/dandan/maplibre-native/vendor/cpp-httplib.cmake
+C:/Repos/dandan/maplibre-native/vendor/googletest.cmake

@@ -1,0 +1,520 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeDetermineSystem.cmake:233 (message)"
+      - "CMakeLists.txt:41 (project)"
+    message: |
+      The system is: Windows - 10.0.19045 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:41 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      MSBuild version 17.10.4+10fbfbf2e for .NET Framework
+      Build started 02/09/2024 10:58:04.
+      
+      Project "C:\\Repos\\dandan\\maplibre-native\\build\\CMakeFiles\\3.28.3-msvc11\\CompilerIdCXX\\CompilerIdCXX.vcxproj" on node 1 (default targets).
+      PrepareForBuild:
+        Creating directory "Debug\\".
+        Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+        Creating directory "Debug\\CompilerIdCXX.tlog\\".
+      InitializeBuildStatus:
+        Creating "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        Touching "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> C:\\Repos\\dandan\\maplibre-native\\build\\CMakeFiles\\3.28.3-msvc11\\CompilerIdCXX\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Deleting file "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+        Touching "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
+      Done Building Project "C:\\Repos\\dandan\\maplibre-native\\build\\CMakeFiles\\3.28.3-msvc11\\CompilerIdCXX\\CompilerIdCXX.vcxproj" (default targets).
+      
+      Build succeeded.
+          0 Warning(s)
+          0 Error(s)
+      
+      Time Elapsed 00:00:02.01
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        C:/Repos/dandan/maplibre-native/build/CMakeFiles/3.28.3-msvc11/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:41 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      MSBuild version 17.10.4+10fbfbf2e for .NET Framework
+      Build started 02/09/2024 10:58:07.
+      
+      Project "C:\\Repos\\dandan\\maplibre-native\\build\\CMakeFiles\\3.28.3-msvc11\\CompilerIdC\\CompilerIdC.vcxproj" on node 1 (default targets).
+      PrepareForBuild:
+        Creating directory "Debug\\".
+        Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+        Creating directory "Debug\\CompilerIdC.tlog\\".
+      InitializeBuildStatus:
+        Creating "Debug\\CompilerIdC.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        Touching "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> C:\\Repos\\dandan\\maplibre-native\\build\\CMakeFiles\\3.28.3-msvc11\\CompilerIdC\\CompilerIdC.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Deleting file "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+        Touching "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate".
+      Done Building Project "C:\\Repos\\dandan\\maplibre-native\\build\\CMakeFiles\\3.28.3-msvc11\\CompilerIdC\\CompilerIdC.vcxproj" (default targets).
+      
+      Build succeeded.
+          0 Warning(s)
+          0 Error(s)
+      
+      Time Elapsed 00:00:01.12
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        C:/Repos/dandan/maplibre-native/build/CMakeFiles/3.28.3-msvc11/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:41 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/Repos/dandan/maplibre-native/build/CMakeFiles/CMakeScratch/TryCompile-6qo5tk"
+      binary: "C:/Repos/dandan/maplibre-native/build/CMakeFiles/CMakeScratch/TryCompile-6qo5tk"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      VCPKG_APPLOCAL_DEPS: "ON"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Repos/dandan/maplibre-native/platform/windows/vendor/vcpkg"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Repos/dandan/maplibre-native/build/CMakeFiles/CMakeScratch/TryCompile-6qo5tk'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_0643f.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.10.4+10fbfbf2e for .NET Framework
+        Build started 02/09/2024 10:58:09.
+        
+        Project "C:\\Repos\\dandan\\maplibre-native\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6qo5tk\\cmTC_0643f.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_0643f.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Repos\\dandan\\maplibre-native\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6qo5tk\\Debug\\".
+          Creating directory "cmTC_0643f.dir\\Debug\\cmTC_0643f.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_0643f.dir\\Debug\\cmTC_0643f.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_0643f.dir\\Debug\\cmTC_0643f.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_0643f.dir\\Debug\\\\" /Fd"cmTC_0643f.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.28\\Modules\\CMakeCXXCompilerABI.cpp"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.40.33811 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_0643f.dir\\Debug\\\\" /Fd"cmTC_0643f.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.28\\Modules\\CMakeCXXCompilerABI.cpp"
+          CMakeCXXCompilerABI.cpp
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Repos\\dandan\\maplibre-native\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6qo5tk\\Debug\\cmTC_0643f.exe" /INCREMENTAL /ILK:"cmTC_0643f.dir\\Debug\\cmTC_0643f.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Repos/dandan/maplibre-native/build/CMakeFiles/CMakeScratch/TryCompile-6qo5tk/Debug/cmTC_0643f.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Repos/dandan/maplibre-native/build/CMakeFiles/CMakeScratch/TryCompile-6qo5tk/Debug/cmTC_0643f.lib" /MACHINE:X64  /machine:x64 cmTC_0643f.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_0643f.vcxproj -> C:\\Repos\\dandan\\maplibre-native\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6qo5tk\\Debug\\cmTC_0643f.exe
+        PostBuildEvent:
+          setlocal
+          C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe -noprofile -executionpolicy Bypass -file C:/Repos/dandan/maplibre-native/platform/windows/vendor/vcpkg/scripts/buildsystems/msbuild/applocal.ps1 -targetBinary C:/Repos/dandan/maplibre-native/build/CMakeFiles/CMakeScratch/TryCompile-6qo5tk/Debug/cmTC_0643f.exe -installedDir C:/Repos/dandan/maplibre-native/platform/windows/vendor/vcpkg/installed/x64-windows/debug/bin -OutVariable out
+          if %errorlevel% neq 0 goto :cmEnd
+          :cmEnd
+          endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+          :cmErrorLevel
+          exit /b %1
+          :cmDone
+          if %errorlevel% neq 0 goto :VCEnd
+          :VCEnd
+        FinalizeBuildStatus:
+          Deleting file "cmTC_0643f.dir\\Debug\\cmTC_0643f.tlog\\unsuccessfulbuild".
+          Touching "cmTC_0643f.dir\\Debug\\cmTC_0643f.tlog\\cmTC_0643f.lastbuildstate".
+        Done Building Project "C:\\Repos\\dandan\\maplibre-native\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6qo5tk\\cmTC_0643f.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:02.97
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:41 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Repos/dandan/maplibre-native/build/CMakeFiles/CMakeScratch/TryCompile-vnaw23"
+      binary: "C:/Repos/dandan/maplibre-native/build/CMakeFiles/CMakeScratch/TryCompile-vnaw23"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      VCPKG_APPLOCAL_DEPS: "ON"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Repos/dandan/maplibre-native/platform/windows/vendor/vcpkg"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Repos/dandan/maplibre-native/build/CMakeFiles/CMakeScratch/TryCompile-vnaw23'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_ef199.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.10.4+10fbfbf2e for .NET Framework
+        Build started 02/09/2024 10:58:14.
+        
+        Project "C:\\Repos\\dandan\\maplibre-native\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vnaw23\\cmTC_ef199.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_ef199.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Repos\\dandan\\maplibre-native\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vnaw23\\Debug\\".
+          Creating directory "cmTC_ef199.dir\\Debug\\cmTC_ef199.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_ef199.dir\\Debug\\cmTC_ef199.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_ef199.dir\\Debug\\cmTC_ef199.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ef199.dir\\Debug\\\\" /Fd"cmTC_ef199.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.28\\Modules\\CMakeCCompilerABI.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.40.33811 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ef199.dir\\Debug\\\\" /Fd"cmTC_ef199.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.28\\Modules\\CMakeCCompilerABI.c"
+          CMakeCCompilerABI.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Repos\\dandan\\maplibre-native\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vnaw23\\Debug\\cmTC_ef199.exe" /INCREMENTAL /ILK:"cmTC_ef199.dir\\Debug\\cmTC_ef199.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Repos/dandan/maplibre-native/build/CMakeFiles/CMakeScratch/TryCompile-vnaw23/Debug/cmTC_ef199.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Repos/dandan/maplibre-native/build/CMakeFiles/CMakeScratch/TryCompile-vnaw23/Debug/cmTC_ef199.lib" /MACHINE:X64  /machine:x64 cmTC_ef199.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_ef199.vcxproj -> C:\\Repos\\dandan\\maplibre-native\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vnaw23\\Debug\\cmTC_ef199.exe
+        PostBuildEvent:
+          setlocal
+          C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe -noprofile -executionpolicy Bypass -file C:/Repos/dandan/maplibre-native/platform/windows/vendor/vcpkg/scripts/buildsystems/msbuild/applocal.ps1 -targetBinary C:/Repos/dandan/maplibre-native/build/CMakeFiles/CMakeScratch/TryCompile-vnaw23/Debug/cmTC_ef199.exe -installedDir C:/Repos/dandan/maplibre-native/platform/windows/vendor/vcpkg/installed/x64-windows/debug/bin -OutVariable out
+          if %errorlevel% neq 0 goto :cmEnd
+          :cmEnd
+          endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+          :cmErrorLevel
+          exit /b %1
+          :cmDone
+          if %errorlevel% neq 0 goto :VCEnd
+          :VCEnd
+        FinalizeBuildStatus:
+          Deleting file "cmTC_ef199.dir\\Debug\\cmTC_ef199.tlog\\unsuccessfulbuild".
+          Touching "cmTC_ef199.dir\\Debug\\cmTC_ef199.tlog\\cmTC_ef199.lastbuildstate".
+        Done Building Project "C:\\Repos\\dandan\\maplibre-native\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vnaw23\\cmTC_ef199.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:02.09
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/FindThreads.cmake:97 (CHECK_C_SOURCE_COMPILES)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "platform/windows/vendor/vcpkg/scripts/buildsystems/vcpkg.cmake:859 (_find_package)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "platform/windows/vendor/vcpkg/installed/x64-windows/share/WebP/WebPConfig.cmake:33 (find_dependency)"
+      - "platform/windows/vendor/vcpkg/scripts/buildsystems/vcpkg.cmake:859 (_find_package)"
+      - "platform/windows/windows.cmake:28 (find_package)"
+      - "CMakeLists.txt:1556 (include)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "C:/Repos/dandan/maplibre-native/build/CMakeFiles/CMakeScratch/TryCompile-zamghf"
+      binary: "C:/Repos/dandan/maplibre-native/build/CMakeFiles/CMakeScratch/TryCompile-zamghf"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+      VCPKG_APPLOCAL_DEPS: "ON"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Repos/dandan/maplibre-native/platform/windows/vendor/vcpkg"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Repos/dandan/maplibre-native/build/CMakeFiles/CMakeScratch/TryCompile-zamghf'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_8747a.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.10.4+10fbfbf2e for .NET Framework
+        Build started 02/09/2024 11:35:50.
+        
+        Project "C:\\Repos\\dandan\\maplibre-native\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zamghf\\cmTC_8747a.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_8747a.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Repos\\dandan\\maplibre-native\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zamghf\\Debug\\".
+          Creating directory "cmTC_8747a.dir\\Debug\\cmTC_8747a.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_8747a.dir\\Debug\\cmTC_8747a.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_8747a.dir\\Debug\\cmTC_8747a.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c11 /Fo"cmTC_8747a.dir\\Debug\\\\" /Fd"cmTC_8747a.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Repos\\dandan\\maplibre-native\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zamghf\\src.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.40.33811 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c11 /Fo"cmTC_8747a.dir\\Debug\\\\" /Fd"cmTC_8747a.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Repos\\dandan\\maplibre-native\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zamghf\\src.c"
+          src.c
+        C:\\Repos\\dandan\\maplibre-native\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zamghf\\src.c(1,1): error C1083: Cannot open include file: 'pthread.h': No such file or directory [C:\\Repos\\dandan\\maplibre-native\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zamghf\\cmTC_8747a.vcxproj]
+        Done Building Project "C:\\Repos\\dandan\\maplibre-native\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zamghf\\cmTC_8747a.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "C:\\Repos\\dandan\\maplibre-native\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zamghf\\cmTC_8747a.vcxproj" (default target) (1) ->
+        (ClCompile target) -> 
+          C:\\Repos\\dandan\\maplibre-native\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zamghf\\src.c(1,1): error C1083: Cannot open include file: 'pthread.h': No such file or directory [C:\\Repos\\dandan\\maplibre-native\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zamghf\\cmTC_8747a.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:00.64
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/FindThreads.cmake:175 (_threads_check_lib)"
+      - "platform/windows/vendor/vcpkg/scripts/buildsystems/vcpkg.cmake:859 (_find_package)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "platform/windows/vendor/vcpkg/installed/x64-windows/share/WebP/WebPConfig.cmake:33 (find_dependency)"
+      - "platform/windows/vendor/vcpkg/scripts/buildsystems/vcpkg.cmake:859 (_find_package)"
+      - "platform/windows/windows.cmake:28 (find_package)"
+      - "CMakeLists.txt:1556 (include)"
+    checks:
+      - "Looking for pthread_create in pthreads"
+    directories:
+      source: "C:/Repos/dandan/maplibre-native/build/CMakeFiles/CMakeScratch/TryCompile-ermu2k"
+      binary: "C:/Repos/dandan/maplibre-native/build/CMakeFiles/CMakeScratch/TryCompile-ermu2k"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+      VCPKG_APPLOCAL_DEPS: "ON"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Repos/dandan/maplibre-native/platform/windows/vendor/vcpkg"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREADS_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Repos/dandan/maplibre-native/build/CMakeFiles/CMakeScratch/TryCompile-ermu2k'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_89456.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.10.4+10fbfbf2e for .NET Framework
+        Build started 02/09/2024 11:35:52.
+        
+        Project "C:\\Repos\\dandan\\maplibre-native\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ermu2k\\cmTC_89456.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_89456.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Repos\\dandan\\maplibre-native\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ermu2k\\Debug\\".
+          Creating directory "cmTC_89456.dir\\Debug\\cmTC_89456.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_89456.dir\\Debug\\cmTC_89456.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_89456.dir\\Debug\\cmTC_89456.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c11 /Fo"cmTC_89456.dir\\Debug\\\\" /Fd"cmTC_89456.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Repos\\dandan\\maplibre-native\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ermu2k\\CheckFunctionExists.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.40.33811 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c11 /Fo"cmTC_89456.dir\\Debug\\\\" /Fd"cmTC_89456.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Repos\\dandan\\maplibre-native\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ermu2k\\CheckFunctionExists.c"
+          CheckFunctionExists.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Repos\\dandan\\maplibre-native\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ermu2k\\Debug\\cmTC_89456.exe" /INCREMENTAL /ILK:"cmTC_89456.dir\\Debug\\cmTC_89456.ilk" /NOLOGO pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Repos/dandan/maplibre-native/build/CMakeFiles/CMakeScratch/TryCompile-ermu2k/Debug/cmTC_89456.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Repos/dandan/maplibre-native/build/CMakeFiles/CMakeScratch/TryCompile-ermu2k/Debug/cmTC_89456.lib" /MACHINE:X64  /machine:x64 cmTC_89456.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [C:\\Repos\\dandan\\maplibre-native\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ermu2k\\cmTC_89456.vcxproj]
+        Done Building Project "C:\\Repos\\dandan\\maplibre-native\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ermu2k\\cmTC_89456.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "C:\\Repos\\dandan\\maplibre-native\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ermu2k\\cmTC_89456.vcxproj" (default target) (1) ->
+        (Link target) -> 
+          LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [C:\\Repos\\dandan\\maplibre-native\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ermu2k\\cmTC_89456.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:00.94
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/FindThreads.cmake:176 (_threads_check_lib)"
+      - "platform/windows/vendor/vcpkg/scripts/buildsystems/vcpkg.cmake:859 (_find_package)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "platform/windows/vendor/vcpkg/installed/x64-windows/share/WebP/WebPConfig.cmake:33 (find_dependency)"
+      - "platform/windows/vendor/vcpkg/scripts/buildsystems/vcpkg.cmake:859 (_find_package)"
+      - "platform/windows/windows.cmake:28 (find_package)"
+      - "CMakeLists.txt:1556 (include)"
+    checks:
+      - "Looking for pthread_create in pthread"
+    directories:
+      source: "C:/Repos/dandan/maplibre-native/build/CMakeFiles/CMakeScratch/TryCompile-t2n5zv"
+      binary: "C:/Repos/dandan/maplibre-native/build/CMakeFiles/CMakeScratch/TryCompile-t2n5zv"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+      VCPKG_APPLOCAL_DEPS: "ON"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Repos/dandan/maplibre-native/platform/windows/vendor/vcpkg"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREAD_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Repos/dandan/maplibre-native/build/CMakeFiles/CMakeScratch/TryCompile-t2n5zv'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_4ba4e.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.10.4+10fbfbf2e for .NET Framework
+        Build started 02/09/2024 11:35:53.
+        
+        Project "C:\\Repos\\dandan\\maplibre-native\\build\\CMakeFiles\\CMakeScratch\\TryCompile-t2n5zv\\cmTC_4ba4e.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_4ba4e.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Repos\\dandan\\maplibre-native\\build\\CMakeFiles\\CMakeScratch\\TryCompile-t2n5zv\\Debug\\".
+          Creating directory "cmTC_4ba4e.dir\\Debug\\cmTC_4ba4e.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_4ba4e.dir\\Debug\\cmTC_4ba4e.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_4ba4e.dir\\Debug\\cmTC_4ba4e.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c11 /Fo"cmTC_4ba4e.dir\\Debug\\\\" /Fd"cmTC_4ba4e.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Repos\\dandan\\maplibre-native\\build\\CMakeFiles\\CMakeScratch\\TryCompile-t2n5zv\\CheckFunctionExists.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.40.33811 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c11 /Fo"cmTC_4ba4e.dir\\Debug\\\\" /Fd"cmTC_4ba4e.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Repos\\dandan\\maplibre-native\\build\\CMakeFiles\\CMakeScratch\\TryCompile-t2n5zv\\CheckFunctionExists.c"
+          CheckFunctionExists.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Repos\\dandan\\maplibre-native\\build\\CMakeFiles\\CMakeScratch\\TryCompile-t2n5zv\\Debug\\cmTC_4ba4e.exe" /INCREMENTAL /ILK:"cmTC_4ba4e.dir\\Debug\\cmTC_4ba4e.ilk" /NOLOGO pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Repos/dandan/maplibre-native/build/CMakeFiles/CMakeScratch/TryCompile-t2n5zv/Debug/cmTC_4ba4e.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Repos/dandan/maplibre-native/build/CMakeFiles/CMakeScratch/TryCompile-t2n5zv/Debug/cmTC_4ba4e.lib" /MACHINE:X64  /machine:x64 cmTC_4ba4e.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: cannot open file 'pthread.lib' [C:\\Repos\\dandan\\maplibre-native\\build\\CMakeFiles\\CMakeScratch\\TryCompile-t2n5zv\\cmTC_4ba4e.vcxproj]
+        Done Building Project "C:\\Repos\\dandan\\maplibre-native\\build\\CMakeFiles\\CMakeScratch\\TryCompile-t2n5zv\\cmTC_4ba4e.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "C:\\Repos\\dandan\\maplibre-native\\build\\CMakeFiles\\CMakeScratch\\TryCompile-t2n5zv\\cmTC_4ba4e.vcxproj" (default target) (1) ->
+        (Link target) -> 
+          LINK : fatal error LNK1104: cannot open file 'pthread.lib' [C:\\Repos\\dandan\\maplibre-native\\build\\CMakeFiles\\CMakeScratch\\TryCompile-t2n5zv\\cmTC_4ba4e.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:01.01
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CheckSymbolExists.cmake:140 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CheckSymbolExists.cmake:66 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "vendor/sqlite.cmake:17 (check_symbol_exists)"
+      - "platform/windows/windows.cmake:170 (include)"
+      - "CMakeLists.txt:1556 (include)"
+    checks:
+      - "Looking for strerror_r"
+    directories:
+      source: "C:/Repos/dandan/maplibre-native/build/CMakeFiles/CMakeScratch/TryCompile-7klbx4"
+      binary: "C:/Repos/dandan/maplibre-native/build/CMakeFiles/CMakeScratch/TryCompile-7klbx4"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+      VCPKG_APPLOCAL_DEPS: "ON"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Repos/dandan/maplibre-native/platform/windows/vendor/vcpkg"
+    buildResult:
+      variable: "MLN_SQLITE3_HAVE_STRERROR_R"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Repos/dandan/maplibre-native/build/CMakeFiles/CMakeScratch/TryCompile-7klbx4'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_31154.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.10.4+10fbfbf2e for .NET Framework
+        Build started 02/09/2024 11:35:55.
+        
+        Project "C:\\Repos\\dandan\\maplibre-native\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7klbx4\\cmTC_31154.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_31154.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Repos\\dandan\\maplibre-native\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7klbx4\\Debug\\".
+          Creating directory "cmTC_31154.dir\\Debug\\cmTC_31154.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_31154.dir\\Debug\\cmTC_31154.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_31154.dir\\Debug\\cmTC_31154.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c11 /Fo"cmTC_31154.dir\\Debug\\\\" /Fd"cmTC_31154.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Repos\\dandan\\maplibre-native\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7klbx4\\CheckSymbolExists.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.40.33811 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c11 /Fo"cmTC_31154.dir\\Debug\\\\" /Fd"cmTC_31154.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Repos\\dandan\\maplibre-native\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7klbx4\\CheckSymbolExists.c"
+          CheckSymbolExists.c
+        C:\\Repos\\dandan\\maplibre-native\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7klbx4\\CheckSymbolExists.c(8,19): error C2065: 'strerror_r': undeclared identifier [C:\\Repos\\dandan\\maplibre-native\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7klbx4\\cmTC_31154.vcxproj]
+        Done Building Project "C:\\Repos\\dandan\\maplibre-native\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7klbx4\\cmTC_31154.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "C:\\Repos\\dandan\\maplibre-native\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7klbx4\\cmTC_31154.vcxproj" (default target) (1) ->
+        (ClCompile target) -> 
+          C:\\Repos\\dandan\\maplibre-native\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7klbx4\\CheckSymbolExists.c(8,19): error C2065: 'strerror_r': undeclared identifier [C:\\Repos\\dandan\\maplibre-native\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7klbx4\\cmTC_31154.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:00.61
+        
+      exitCode: 1
+...

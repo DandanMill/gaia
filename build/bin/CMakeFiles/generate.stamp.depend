@@ -1,0 +1,3 @@
+# CMake generation dependency list for this directory.
+C:/Repos/dandan/maplibre-native/bin/CMakeLists.txt
+C:/Repos/dandan/maplibre-native/platform/windows/vendor/vcpkg/installed/x64-windows/share/libuv/libuvConfig.cmake

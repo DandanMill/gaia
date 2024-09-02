@@ -1,0 +1,382 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\test\actor\actor.test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\test\actor\actor_ref.test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\test\algorithm\update_renderables.test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\test\algorithm\update_tile_masks.test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\test\api\annotations.test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\test\api\api_misuse.test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\test\api\custom_geometry_source.test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\test\api\query.test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\test\api\recycle_map.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\test\geometry\dem_data.test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\test\geometry\line_atlas.test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\test\map\map.test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\test\map\prefetch.test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\test\map\transform.test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\test\math\clamp.test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\test\math\minmax.test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\test\math\wrap.test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\test\platform\settings.test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\test\programs\symbol_program.test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\test\renderer\image_manager.test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\test\renderer\pattern_atlas.test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\test\renderer\shader_registry.test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\test\sprite\sprite_loader.test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\test\sprite\sprite_parser.test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\test\src\mbgl\test\fixture_log_observer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\test\src\mbgl\test\getrss.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\test\src\mbgl\test\sqlite3_test_fs.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\test\src\mbgl\test\stub_file_source.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\test\src\mbgl\test\test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\test\src\mbgl\test\util.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\test\storage\asset_file_source.test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\test\storage\database_file_source.test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\test\storage\headers.test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\test\storage\http_file_source.test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\test\storage\local_file_source.test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\test\storage\main_resource_loader.test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\test\storage\mbtiles_file_source.test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\test\storage\offline.test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\test\storage\offline_database.test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\test\storage\offline_download.test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\test\storage\online_file_source.test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\test\storage\resource.test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\test\storage\sqlite.test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\test\style\conversion\conversion_impl.test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\test\style\conversion\function.test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\test\style\conversion\geojson_options.test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\test\style\conversion\layer.test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\test\style\conversion\light.test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\test\style\conversion\property_value.test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\test\style\conversion\stringify.test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\test\style\conversion\tileset.test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\test\style\expression\dependency.test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\test\style\expression\expression.test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\test\style\expression\util.test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\test\style\filter.test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\test\style\properties.test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\test\style\property_expression.test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\test\style\source.test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\test\style\style.test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\test\style\style_image.test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\test\style\style_layer.test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\test\style\style_parser.test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\test\text\calculate_tile_distances.test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\test\text\cross_tile_symbol_index.test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\test\text\formatted.test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\test\text\get_anchors.test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\test\text\glyph_manager.test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\test\text\glyph_pbf.test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\test\text\language_tag.test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\test\text\local_glyph_rasterizer.test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\test\text\quads.test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\test\text\shaping.test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\test\text\tagged_string.test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\test\tile\custom_geometry_tile.test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\test\tile\geojson_tile.test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\test\tile\geometry_tile_data.test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\test\tile\raster_dem_tile.test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\test\tile\raster_tile.test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\test\tile\tile_cache.test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\test\tile\tile_coordinate.test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\test\tile\tile_id.test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\test\tile\vector_tile.test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\test\util\async_task.test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\test\util\bounding_volumes.test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\test\util\camera.test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\test\util\geo.test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\test\util\grid_index.test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\test\util\hash.test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\test\util\http_timeout.test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\test\util\image.test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\test\util\mapbox.test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\test\util\memory.test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\test\util\merge_lines.test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\test\util\number_conversions.test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\test\util\position.test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\test\util\projection.test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\test\util\rotation.test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\test\util\run_loop.test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\test\util\string.test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\test\util\string_indexer.test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\test\util\text_conversions.test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\test\util\thread.test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\test\util\thread_local.test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\test\util\tile_cover.test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\test\util\tile_range.test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\test\util\timer.test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\test\util\tiny_map.test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\test\util\token.test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\test\util\url.test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\test\util\tile_server_options.test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\test\util\lru_cache.test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\platform\default\src\mbgl\map\map_snapshotter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\test\map\map_snapshotter.test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\test\api\custom_layer.test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\test\api\custom_drawable_layer.test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\test\gl\bucket.test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\test\gl\enum.test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\test\gl\context.test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\test\gl\gl_functions.test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\test\gl\object.test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\test\gl\resource_pool.test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\test\renderer\backend_scope.test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\test\util\offscreen_texture.test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Repos\dandan\maplibre-native\test\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{9BD7EC8F-4B41-33FC-ABA5-9081C02B8DCC}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

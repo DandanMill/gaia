@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Repos\dandan\maplibre-native\build\CMakeFiles\67c541c3b65ea7cfaf7f471c32ac9f2e\RUN_TESTS_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{DD8EEEDE-2901-3395-9B2A-FCCF1CC2369A}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,2877 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\actor\mailbox.cpp">
+      <Filter>mbgl\actor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\actor\scheduler.cpp">
+      <Filter>mbgl\actor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\annotation\annotation_manager.cpp">
+      <Filter>mbgl\annotation</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\annotation\annotation_source.cpp">
+      <Filter>mbgl\annotation</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\annotation\annotation_tile.cpp">
+      <Filter>mbgl\annotation</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\annotation\fill_annotation_impl.cpp">
+      <Filter>mbgl\annotation</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\annotation\line_annotation_impl.cpp">
+      <Filter>mbgl\annotation</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\annotation\render_annotation_source.cpp">
+      <Filter>mbgl\annotation</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\annotation\shape_annotation_impl.cpp">
+      <Filter>mbgl\annotation</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\annotation\symbol_annotation_impl.cpp">
+      <Filter>mbgl\annotation</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\geometry\dem_data.cpp">
+      <Filter>mbgl\geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\geometry\feature_index.cpp">
+      <Filter>mbgl\geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\geometry\line_atlas.cpp">
+      <Filter>mbgl\geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\gfx\attribute.cpp">
+      <Filter>mbgl\gfx</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\gfx\polyline_generator.cpp">
+      <Filter>mbgl\gfx</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\gfx\fill_generator.cpp">
+      <Filter>mbgl\gfx</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\gfx\renderer_backend.cpp">
+      <Filter>mbgl\gfx</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\gfx\rendering_stats.cpp">
+      <Filter>mbgl\gfx</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\gfx\shader_group.cpp">
+      <Filter>mbgl\gfx</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\gfx\shader_registry.cpp">
+      <Filter>mbgl\gfx</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\layermanager\background_layer_factory.cpp">
+      <Filter>mbgl\layermanager</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\layermanager\circle_layer_factory.cpp">
+      <Filter>mbgl\layermanager</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\layermanager\fill_extrusion_layer_factory.cpp">
+      <Filter>mbgl\layermanager</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\layermanager\fill_layer_factory.cpp">
+      <Filter>mbgl\layermanager</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\layermanager\heatmap_layer_factory.cpp">
+      <Filter>mbgl\layermanager</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\layermanager\hillshade_layer_factory.cpp">
+      <Filter>mbgl\layermanager</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\layermanager\layer_factory.cpp">
+      <Filter>mbgl\layermanager</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\layermanager\layer_manager.cpp">
+      <Filter>mbgl\layermanager</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\layermanager\line_layer_factory.cpp">
+      <Filter>mbgl\layermanager</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\layermanager\raster_layer_factory.cpp">
+      <Filter>mbgl\layermanager</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\layermanager\symbol_layer_factory.cpp">
+      <Filter>mbgl\layermanager</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\layout\clip_lines.cpp">
+      <Filter>mbgl\layout</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\layout\merge_lines.cpp">
+      <Filter>mbgl\layout</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\layout\symbol_instance.cpp">
+      <Filter>mbgl\layout</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\layout\symbol_layout.cpp">
+      <Filter>mbgl\layout</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\layout\symbol_projection.cpp">
+      <Filter>mbgl\layout</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\map\map.cpp">
+      <Filter>mbgl\map</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\map\map_impl.cpp">
+      <Filter>mbgl\map</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\map\map_options.cpp">
+      <Filter>mbgl\map</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\map\map_projection.cpp">
+      <Filter>mbgl\map</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\map\transform.cpp">
+      <Filter>mbgl\map</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\map\transform_state.cpp">
+      <Filter>mbgl\map</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\math\log2.cpp">
+      <Filter>mbgl\math</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\platform\settings.cpp">
+      <Filter>mbgl\platform</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\programs\background_program.cpp">
+      <Filter>mbgl\programs</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\programs\circle_program.cpp">
+      <Filter>mbgl\programs</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\programs\clipping_mask_program.cpp">
+      <Filter>mbgl\programs</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\programs\collision_box_program.cpp">
+      <Filter>mbgl\programs</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\programs\debug_program.cpp">
+      <Filter>mbgl\programs</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\programs\fill_extrusion_program.cpp">
+      <Filter>mbgl\programs</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\programs\fill_program.cpp">
+      <Filter>mbgl\programs</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\programs\heatmap_program.cpp">
+      <Filter>mbgl\programs</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\programs\heatmap_texture_program.cpp">
+      <Filter>mbgl\programs</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\programs\hillshade_prepare_program.cpp">
+      <Filter>mbgl\programs</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\programs\hillshade_program.cpp">
+      <Filter>mbgl\programs</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\programs\line_program.cpp">
+      <Filter>mbgl\programs</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\programs\program_parameters.cpp">
+      <Filter>mbgl\programs</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\programs\programs.cpp">
+      <Filter>mbgl\programs</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\programs\raster_program.cpp">
+      <Filter>mbgl\programs</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\programs\symbol_program.cpp">
+      <Filter>mbgl\programs</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\renderer\backend_scope.cpp">
+      <Filter>mbgl\renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\renderer\bucket_parameters.cpp">
+      <Filter>mbgl\renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\renderer\buckets\circle_bucket.cpp">
+      <Filter>mbgl\renderer\buckets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\renderer\buckets\debug_bucket.cpp">
+      <Filter>mbgl\renderer\buckets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\renderer\buckets\fill_bucket.cpp">
+      <Filter>mbgl\renderer\buckets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\renderer\buckets\fill_extrusion_bucket.cpp">
+      <Filter>mbgl\renderer\buckets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\renderer\buckets\heatmap_bucket.cpp">
+      <Filter>mbgl\renderer\buckets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\renderer\buckets\hillshade_bucket.cpp">
+      <Filter>mbgl\renderer\buckets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\renderer\buckets\line_bucket.cpp">
+      <Filter>mbgl\renderer\buckets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\renderer\buckets\raster_bucket.cpp">
+      <Filter>mbgl\renderer\buckets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\renderer\buckets\symbol_bucket.cpp">
+      <Filter>mbgl\renderer\buckets</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\renderer\cross_faded_property_evaluator.cpp">
+      <Filter>mbgl\renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\renderer\group_by_layout.cpp">
+      <Filter>mbgl\renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\renderer\image_atlas.cpp">
+      <Filter>mbgl\renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\renderer\image_manager.cpp">
+      <Filter>mbgl\renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\renderer\layers\render_background_layer.cpp">
+      <Filter>mbgl\renderer\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\renderer\layers\render_circle_layer.cpp">
+      <Filter>mbgl\renderer\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\renderer\layers\render_fill_extrusion_layer.cpp">
+      <Filter>mbgl\renderer\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\renderer\layers\render_fill_layer.cpp">
+      <Filter>mbgl\renderer\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\renderer\layers\render_heatmap_layer.cpp">
+      <Filter>mbgl\renderer\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\renderer\layers\render_hillshade_layer.cpp">
+      <Filter>mbgl\renderer\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\renderer\layers\render_line_layer.cpp">
+      <Filter>mbgl\renderer\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\renderer\layers\render_raster_layer.cpp">
+      <Filter>mbgl\renderer\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\renderer\layers\render_symbol_layer.cpp">
+      <Filter>mbgl\renderer\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\renderer\paint_parameters.cpp">
+      <Filter>mbgl\renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\renderer\pattern_atlas.cpp">
+      <Filter>mbgl\renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\renderer\render_layer.cpp">
+      <Filter>mbgl\renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\renderer\render_light.cpp">
+      <Filter>mbgl\renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\renderer\render_orchestrator.cpp">
+      <Filter>mbgl\renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\renderer\render_source.cpp">
+      <Filter>mbgl\renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\renderer\render_static_data.cpp">
+      <Filter>mbgl\renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\renderer\render_tile.cpp">
+      <Filter>mbgl\renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\renderer\renderer.cpp">
+      <Filter>mbgl\renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\renderer\renderer_impl.cpp">
+      <Filter>mbgl\renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\renderer\renderer_state.cpp">
+      <Filter>mbgl\renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\renderer\sources\render_custom_geometry_source.cpp">
+      <Filter>mbgl\renderer\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\renderer\sources\render_geojson_source.cpp">
+      <Filter>mbgl\renderer\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\renderer\sources\render_image_source.cpp">
+      <Filter>mbgl\renderer\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\renderer\sources\render_raster_dem_source.cpp">
+      <Filter>mbgl\renderer\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\renderer\sources\render_raster_source.cpp">
+      <Filter>mbgl\renderer\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\renderer\sources\render_tile_source.cpp">
+      <Filter>mbgl\renderer\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\renderer\sources\render_vector_source.cpp">
+      <Filter>mbgl\renderer\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\renderer\source_state.cpp">
+      <Filter>mbgl\renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\renderer\style_diff.cpp">
+      <Filter>mbgl\renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\renderer\tile_pyramid.cpp">
+      <Filter>mbgl\renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\renderer\tile_render_data.cpp">
+      <Filter>mbgl\renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\sprite\sprite_loader.cpp">
+      <Filter>mbgl\sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\sprite\sprite_parser.cpp">
+      <Filter>mbgl\sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\storage\file_source_manager.cpp">
+      <Filter>mbgl\storage</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\storage\network_status.cpp">
+      <Filter>mbgl\storage</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\storage\resource.cpp">
+      <Filter>mbgl\storage</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\storage\resource_options.cpp">
+      <Filter>mbgl\storage</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\storage\resource_transform.cpp">
+      <Filter>mbgl\storage</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\storage\response.cpp">
+      <Filter>mbgl\storage</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\style\conversion\color_ramp_property_value.cpp">
+      <Filter>mbgl\style\conversion</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\style\conversion\constant.cpp">
+      <Filter>mbgl\style\conversion</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\style\conversion\sprite.cpp">
+      <Filter>mbgl\style\conversion</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\style\conversion\coordinate.cpp">
+      <Filter>mbgl\style\conversion</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\style\conversion\custom_geometry_source_options.cpp">
+      <Filter>mbgl\style\conversion</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\style\conversion\filter.cpp">
+      <Filter>mbgl\style\conversion</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\style\conversion\function.cpp">
+      <Filter>mbgl\style\conversion</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\style\conversion\geojson.cpp">
+      <Filter>mbgl\style\conversion</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\style\conversion\geojson_options.cpp">
+      <Filter>mbgl\style\conversion</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\style\conversion\get_json_type.cpp">
+      <Filter>mbgl\style\conversion</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\style\conversion\layer.cpp">
+      <Filter>mbgl\style\conversion</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\style\conversion\light.cpp">
+      <Filter>mbgl\style\conversion</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\style\conversion\position.cpp">
+      <Filter>mbgl\style\conversion</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\style\conversion\property_value.cpp">
+      <Filter>mbgl\style\conversion</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\style\conversion\rotation.cpp">
+      <Filter>mbgl\style\conversion</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\style\conversion\source.cpp">
+      <Filter>mbgl\style\conversion</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\style\conversion\tileset.cpp">
+      <Filter>mbgl\style\conversion</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\style\conversion\transition_options.cpp">
+      <Filter>mbgl\style\conversion</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\style\custom_tile_loader.cpp">
+      <Filter>mbgl\style</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\style\expression\assertion.cpp">
+      <Filter>mbgl\style\expression</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\style\expression\at.cpp">
+      <Filter>mbgl\style\expression</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\style\expression\boolean_operator.cpp">
+      <Filter>mbgl\style\expression</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\style\expression\case.cpp">
+      <Filter>mbgl\style\expression</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\style\expression\check_subtype.cpp">
+      <Filter>mbgl\style\expression</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\style\expression\coalesce.cpp">
+      <Filter>mbgl\style\expression</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\style\expression\coercion.cpp">
+      <Filter>mbgl\style\expression</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\style\expression\collator.cpp">
+      <Filter>mbgl\style\expression</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\style\expression\collator_expression.cpp">
+      <Filter>mbgl\style\expression</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\style\expression\comparison.cpp">
+      <Filter>mbgl\style\expression</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\style\expression\compound_expression.cpp">
+      <Filter>mbgl\style\expression</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\style\expression\distance.cpp">
+      <Filter>mbgl\style\expression</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\style\expression\dsl.cpp">
+      <Filter>mbgl\style\expression</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\style\expression\expression.cpp">
+      <Filter>mbgl\style\expression</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\style\expression\find_zoom_curve.cpp">
+      <Filter>mbgl\style\expression</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\style\expression\format_expression.cpp">
+      <Filter>mbgl\style\expression</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\style\expression\formatted.cpp">
+      <Filter>mbgl\style\expression</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\style\expression\get_covering_stops.cpp">
+      <Filter>mbgl\style\expression</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\style\expression\image.cpp">
+      <Filter>mbgl\style\expression</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\style\expression\image_expression.cpp">
+      <Filter>mbgl\style\expression</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\style\expression\in.cpp">
+      <Filter>mbgl\style\expression</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\style\expression\index_of.cpp">
+      <Filter>mbgl\style\expression</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\style\expression\interpolate.cpp">
+      <Filter>mbgl\style\expression</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\style\expression\is_constant.cpp">
+      <Filter>mbgl\style\expression</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\style\expression\is_expression.cpp">
+      <Filter>mbgl\style\expression</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\style\expression\length.cpp">
+      <Filter>mbgl\style\expression</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\style\expression\let.cpp">
+      <Filter>mbgl\style\expression</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\style\expression\literal.cpp">
+      <Filter>mbgl\style\expression</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\style\expression\match.cpp">
+      <Filter>mbgl\style\expression</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\style\expression\number_format.cpp">
+      <Filter>mbgl\style\expression</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\style\expression\parsing_context.cpp">
+      <Filter>mbgl\style\expression</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\style\expression\slice.cpp">
+      <Filter>mbgl\style\expression</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\style\expression\step.cpp">
+      <Filter>mbgl\style\expression</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\style\expression\util.cpp">
+      <Filter>mbgl\style\expression</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\style\expression\value.cpp">
+      <Filter>mbgl\style\expression</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\style\expression\within.cpp">
+      <Filter>mbgl\style\expression</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\style\filter.cpp">
+      <Filter>mbgl\style</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\style\image.cpp">
+      <Filter>mbgl\style</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\style\sprite.cpp">
+      <Filter>mbgl\style</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\style\image_impl.cpp">
+      <Filter>mbgl\style</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\style\layer.cpp">
+      <Filter>mbgl\style</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\style\layer_impl.cpp">
+      <Filter>mbgl\style</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\style\layers\background_layer.cpp">
+      <Filter>mbgl\style\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\style\layers\background_layer_impl.cpp">
+      <Filter>mbgl\style\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\style\layers\background_layer_properties.cpp">
+      <Filter>mbgl\style\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\style\layers\circle_layer.cpp">
+      <Filter>mbgl\style\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\style\layers\circle_layer_impl.cpp">
+      <Filter>mbgl\style\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\style\layers\circle_layer_properties.cpp">
+      <Filter>mbgl\style\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\style\layers\fill_extrusion_layer.cpp">
+      <Filter>mbgl\style\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\style\layers\fill_extrusion_layer_impl.cpp">
+      <Filter>mbgl\style\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\style\layers\fill_extrusion_layer_properties.cpp">
+      <Filter>mbgl\style\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\style\layers\fill_layer.cpp">
+      <Filter>mbgl\style\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\style\layers\fill_layer_impl.cpp">
+      <Filter>mbgl\style\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\style\layers\fill_layer_properties.cpp">
+      <Filter>mbgl\style\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\style\layers\heatmap_layer.cpp">
+      <Filter>mbgl\style\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\style\layers\heatmap_layer_impl.cpp">
+      <Filter>mbgl\style\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\style\layers\heatmap_layer_properties.cpp">
+      <Filter>mbgl\style\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\style\layers\hillshade_layer.cpp">
+      <Filter>mbgl\style\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\style\layers\hillshade_layer_impl.cpp">
+      <Filter>mbgl\style\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\style\layers\hillshade_layer_properties.cpp">
+      <Filter>mbgl\style\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\style\layers\line_layer.cpp">
+      <Filter>mbgl\style\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\style\layers\line_layer_impl.cpp">
+      <Filter>mbgl\style\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\style\layers\line_layer_properties.cpp">
+      <Filter>mbgl\style\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\style\layers\raster_layer.cpp">
+      <Filter>mbgl\style\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\style\layers\raster_layer_impl.cpp">
+      <Filter>mbgl\style\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\style\layers\raster_layer_properties.cpp">
+      <Filter>mbgl\style\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\style\layers\symbol_layer.cpp">
+      <Filter>mbgl\style\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\style\layers\symbol_layer_impl.cpp">
+      <Filter>mbgl\style\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\style\layers\symbol_layer_properties.cpp">
+      <Filter>mbgl\style\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\style\light.cpp">
+      <Filter>mbgl\style</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\style\light_impl.cpp">
+      <Filter>mbgl\style</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\style\parser.cpp">
+      <Filter>mbgl\style</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\style\property_expression.cpp">
+      <Filter>mbgl\style</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\style\source.cpp">
+      <Filter>mbgl\style</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\style\source_impl.cpp">
+      <Filter>mbgl\style</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\style\sources\custom_geometry_source.cpp">
+      <Filter>mbgl\style\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\style\sources\custom_geometry_source_impl.cpp">
+      <Filter>mbgl\style\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\style\sources\geojson_source.cpp">
+      <Filter>mbgl\style\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\style\sources\geojson_source_impl.cpp">
+      <Filter>mbgl\style\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\style\sources\image_source.cpp">
+      <Filter>mbgl\style\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\style\sources\image_source_impl.cpp">
+      <Filter>mbgl\style\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\style\sources\raster_dem_source.cpp">
+      <Filter>mbgl\style\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\style\sources\raster_source.cpp">
+      <Filter>mbgl\style\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\style\sources\raster_source_impl.cpp">
+      <Filter>mbgl\style\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\style\sources\vector_source.cpp">
+      <Filter>mbgl\style\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\style\sources\vector_source_impl.cpp">
+      <Filter>mbgl\style\sources</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\style\style.cpp">
+      <Filter>mbgl\style</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\style\style_impl.cpp">
+      <Filter>mbgl\style</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\style\types.cpp">
+      <Filter>mbgl\style</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\style\layers\custom_layer.cpp">
+      <Filter>mbgl\style\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\style\layers\custom_layer_render_parameters.cpp">
+      <Filter>mbgl\style\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\layermanager\custom_layer_factory.cpp">
+      <Filter>mbgl\layermanager</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\style\layers\custom_layer_impl.cpp">
+      <Filter>mbgl\style\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\text\check_max_angle.cpp">
+      <Filter>mbgl\text</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\text\collision_feature.cpp">
+      <Filter>mbgl\text</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\text\collision_index.cpp">
+      <Filter>mbgl\text</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\text\cross_tile_symbol_index.cpp">
+      <Filter>mbgl\text</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\text\get_anchors.cpp">
+      <Filter>mbgl\text</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\text\glyph.cpp">
+      <Filter>mbgl\text</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\text\glyph_atlas.cpp">
+      <Filter>mbgl\text</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\text\glyph_manager.cpp">
+      <Filter>mbgl\text</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\text\glyph_pbf.cpp">
+      <Filter>mbgl\text</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\text\language_tag.cpp">
+      <Filter>mbgl\text</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\text\placement.cpp">
+      <Filter>mbgl\text</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\text\quads.cpp">
+      <Filter>mbgl\text</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\text\shaping.cpp">
+      <Filter>mbgl\text</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\text\tagged_string.cpp">
+      <Filter>mbgl\text</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\tile\custom_geometry_tile.cpp">
+      <Filter>mbgl\tile</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\tile\geojson_tile.cpp">
+      <Filter>mbgl\tile</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\tile\geometry_tile.cpp">
+      <Filter>mbgl\tile</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\tile\geometry_tile_data.cpp">
+      <Filter>mbgl\tile</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\tile\geometry_tile_worker.cpp">
+      <Filter>mbgl\tile</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\tile\raster_dem_tile.cpp">
+      <Filter>mbgl\tile</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\tile\raster_dem_tile_worker.cpp">
+      <Filter>mbgl\tile</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\tile\raster_tile.cpp">
+      <Filter>mbgl\tile</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\tile\raster_tile_worker.cpp">
+      <Filter>mbgl\tile</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\tile\tile.cpp">
+      <Filter>mbgl\tile</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\tile\tile_cache.cpp">
+      <Filter>mbgl\tile</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\tile\tile_id_hash.cpp">
+      <Filter>mbgl\tile</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\tile\tile_id_io.cpp">
+      <Filter>mbgl\tile</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\tile\vector_tile.cpp">
+      <Filter>mbgl\tile</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\tile\vector_tile_data.cpp">
+      <Filter>mbgl\tile</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\util\camera.cpp">
+      <Filter>mbgl\util</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\util\bounding_volumes.cpp">
+      <Filter>mbgl\util</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\util\chrono.cpp">
+      <Filter>mbgl\util</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\util\client_options.cpp">
+      <Filter>mbgl\util</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\util\color.cpp">
+      <Filter>mbgl\util</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\util\constants.cpp">
+      <Filter>mbgl\util</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\util\convert.cpp">
+      <Filter>mbgl\util</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\util\event.cpp">
+      <Filter>mbgl\util</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\util\font_stack.cpp">
+      <Filter>mbgl\util</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\util\geo.cpp">
+      <Filter>mbgl\util</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\util\geojson_impl.cpp">
+      <Filter>mbgl\util</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\util\geometry_util.cpp">
+      <Filter>mbgl\util</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\util\grid_index.cpp">
+      <Filter>mbgl\util</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\util\http_header.cpp">
+      <Filter>mbgl\util</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\util\http_timeout.cpp">
+      <Filter>mbgl\util</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\util\i18n.cpp">
+      <Filter>mbgl\util</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\util\identity.cpp">
+      <Filter>mbgl\util</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\util\interpolate.cpp">
+      <Filter>mbgl\util</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\util\intersection_tests.cpp">
+      <Filter>mbgl\util</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\util\io.cpp">
+      <Filter>mbgl\util</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\util\logging.cpp">
+      <Filter>mbgl\util</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\util\mapbox.cpp">
+      <Filter>mbgl\util</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\util\mat2.cpp">
+      <Filter>mbgl\util</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\util\mat3.cpp">
+      <Filter>mbgl\util</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\util\mat4.cpp">
+      <Filter>mbgl\util</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\util\premultiply.cpp">
+      <Filter>mbgl\util</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\util\quaternion.cpp">
+      <Filter>mbgl\util</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\util\rapidjson.cpp">
+      <Filter>mbgl\util</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\util\stopwatch.cpp">
+      <Filter>mbgl\util</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\util\string.cpp">
+      <Filter>mbgl\util</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\util\string_indexer.cpp">
+      <Filter>mbgl\util</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\util\thread.cpp">
+      <Filter>mbgl\util</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\util\thread_pool.cpp">
+      <Filter>mbgl\util</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\util\tile_cover.cpp">
+      <Filter>mbgl\util</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\util\tile_cover_impl.cpp">
+      <Filter>mbgl\util</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\util\default_style.cpp">
+      <Filter>mbgl\util</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\util\tile_server_options.cpp">
+      <Filter>mbgl\util</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\util\tiny_sdf.cpp">
+      <Filter>mbgl\util</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\util\url.cpp">
+      <Filter>mbgl\util</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\util\version.cpp">
+      <Filter>mbgl\util</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\util\work_request.cpp">
+      <Filter>mbgl\util</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\gl\attribute.cpp">
+      <Filter>mbgl\gl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\gl\command_encoder.cpp">
+      <Filter>mbgl\gl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\gl\context.cpp">
+      <Filter>mbgl\gl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\gl\fence.cpp">
+      <Filter>mbgl\gl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\gl\debugging_extension.cpp">
+      <Filter>mbgl\gl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\gl\enum.cpp">
+      <Filter>mbgl\gl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\gl\index_buffer_resource.cpp">
+      <Filter>mbgl\gl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\gl\object.cpp">
+      <Filter>mbgl\gl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\gl\offscreen_texture.cpp">
+      <Filter>mbgl\gl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\renderer\layers\render_custom_layer.cpp">
+      <Filter>mbgl\renderer\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\gl\render_pass.cpp">
+      <Filter>mbgl\gl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\gl\renderbuffer_resource.cpp">
+      <Filter>mbgl\gl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\gl\renderer_backend.cpp">
+      <Filter>mbgl\gl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\gl\resource_pool.cpp">
+      <Filter>mbgl\gl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\gl\texture.cpp">
+      <Filter>mbgl\gl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\gl\texture_resource.cpp">
+      <Filter>mbgl\gl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\gl\timestamp_query_extension.cpp">
+      <Filter>mbgl\gl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\gl\uniform.cpp">
+      <Filter>mbgl\gl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\gl\upload_pass.cpp">
+      <Filter>mbgl\gl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\gl\value.cpp">
+      <Filter>mbgl\gl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\gl\vertex_array.cpp">
+      <Filter>mbgl\gl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\gl\vertex_buffer_resource.cpp">
+      <Filter>mbgl\gl</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\layermanager\location_indicator_layer_factory.cpp">
+      <Filter>mbgl\layermanager</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\platform\gl_functions.cpp">
+      <Filter>mbgl\platform</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\renderer\layers\render_location_indicator_layer.cpp">
+      <Filter>mbgl\renderer\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\style\layers\location_indicator_layer.cpp">
+      <Filter>mbgl\style\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\style\layers\location_indicator_layer_impl.cpp">
+      <Filter>mbgl\style\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\src\mbgl\style\layers\location_indicator_layer_properties.cpp">
+      <Filter>mbgl\style\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\platform\default\src\mbgl\gfx\headless_backend.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\platform\default\src\mbgl\gfx\headless_frontend.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\platform\default\src\mbgl\gl\headless_backend.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\platform\default\src\mbgl\i18n\collator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\platform\default\src\mbgl\i18n\number_format.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\platform\default\src\mbgl\layermanager\layer_manager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\platform\default\src\mbgl\platform\time.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\platform\default\src\mbgl\storage\asset_file_source.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\platform\default\src\mbgl\storage\database_file_source.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\platform\default\src\mbgl\storage\file_source_manager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\platform\default\src\mbgl\storage\file_source_request.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\platform\default\src\mbgl\storage\http_file_source.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\platform\default\src\mbgl\storage\local_file_request.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\platform\default\src\mbgl\storage\local_file_source.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\platform\default\src\mbgl\storage\mbtiles_file_source.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\platform\default\src\mbgl\storage\main_resource_loader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\platform\default\src\mbgl\storage\offline.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\platform\default\src\mbgl\storage\offline_database.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\platform\default\src\mbgl\storage\offline_download.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\platform\default\src\mbgl\storage\online_file_source.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\platform\default\src\mbgl\storage\sqlite3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\platform\default\src\mbgl\text\bidi.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\platform\default\src\mbgl\text\local_glyph_rasterizer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\platform\default\src\mbgl\util\async_task.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\platform\default\src\mbgl\util\compression.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\platform\default\src\mbgl\util\filesystem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\platform\default\src\mbgl\util\image.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\platform\default\src\mbgl\util\jpeg_reader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\platform\default\src\mbgl\util\webp_reader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\platform\default\src\mbgl\util\logging_stderr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\platform\default\src\mbgl\util\monotonic_timer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\platform\default\src\mbgl\util\png_reader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\platform\default\src\mbgl\util\png_writer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\platform\default\src\mbgl\util\run_loop.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\platform\default\src\mbgl\util\string_stdlib.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\platform\default\src\mbgl\util\timer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\platform\default\src\mbgl\util\utf.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\platform\windows\src\thread.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\platform\windows\src\thread_local.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Repos\dandan\maplibre-native\platform\windows\src\headless_backend_wgl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\actor\actor.hpp">
+      <Filter>mbgl\actor</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\actor\actor_ref.hpp">
+      <Filter>mbgl\actor</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\actor\aspiring_actor.hpp">
+      <Filter>mbgl\actor</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\actor\established_actor.hpp">
+      <Filter>mbgl\actor</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\actor\mailbox.hpp">
+      <Filter>mbgl\actor</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\actor\message.hpp">
+      <Filter>mbgl\actor</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\actor\scheduler.hpp">
+      <Filter>mbgl\actor</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\annotation\annotation.hpp">
+      <Filter>mbgl\annotation</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\gfx\backend_scope.hpp">
+      <Filter>mbgl\gfx</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\gfx\gfx_types.hpp">
+      <Filter>mbgl\gfx</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\gfx\polyline_generator.hpp">
+      <Filter>mbgl\gfx</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\gfx\fill_generator.hpp">
+      <Filter>mbgl\gfx</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\gfx\renderable.hpp">
+      <Filter>mbgl\gfx</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\gfx\renderer_backend.hpp">
+      <Filter>mbgl\gfx</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\gfx\rendering_stats.hpp">
+      <Filter>mbgl\gfx</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\gfx\shader_registry.hpp">
+      <Filter>mbgl\gfx</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\gfx\shader_group.hpp">
+      <Filter>mbgl\gfx</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\gfx\shader.hpp">
+      <Filter>mbgl\gfx</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\gfx\types.hpp">
+      <Filter>mbgl\gfx</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\gfx\backend.hpp">
+      <Filter>mbgl\gfx</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\style\layers\custom_layer.hpp">
+      <Filter>mbgl\style\layers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\style\layers\custom_layer_render_parameters.hpp">
+      <Filter>mbgl\style\layers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\layermanager\custom_layer_factory.hpp">
+      <Filter>mbgl\layermanager</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\layermanager\background_layer_factory.hpp">
+      <Filter>mbgl\layermanager</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\layermanager\circle_layer_factory.hpp">
+      <Filter>mbgl\layermanager</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\layermanager\fill_extrusion_layer_factory.hpp">
+      <Filter>mbgl\layermanager</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\layermanager\fill_layer_factory.hpp">
+      <Filter>mbgl\layermanager</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\layermanager\heatmap_layer_factory.hpp">
+      <Filter>mbgl\layermanager</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\layermanager\hillshade_layer_factory.hpp">
+      <Filter>mbgl\layermanager</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\layermanager\layer_factory.hpp">
+      <Filter>mbgl\layermanager</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\layermanager\layer_manager.hpp">
+      <Filter>mbgl\layermanager</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\layermanager\line_layer_factory.hpp">
+      <Filter>mbgl\layermanager</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\layermanager\raster_layer_factory.hpp">
+      <Filter>mbgl\layermanager</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\layermanager\symbol_layer_factory.hpp">
+      <Filter>mbgl\layermanager</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\map\bound_options.hpp">
+      <Filter>mbgl\map</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\map\camera.hpp">
+      <Filter>mbgl\map</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\map\change.hpp">
+      <Filter>mbgl\map</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\map\map.hpp">
+      <Filter>mbgl\map</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\map\map_observer.hpp">
+      <Filter>mbgl\map</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\map\map_options.hpp">
+      <Filter>mbgl\map</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\map\map_projection.hpp">
+      <Filter>mbgl\map</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\map\mode.hpp">
+      <Filter>mbgl\map</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\map\projection_mode.hpp">
+      <Filter>mbgl\map</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\math\angles.hpp">
+      <Filter>mbgl\math</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\math\clamp.hpp">
+      <Filter>mbgl\math</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\math\log2.hpp">
+      <Filter>mbgl\math</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\math\minmax.hpp">
+      <Filter>mbgl\math</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\math\wrap.hpp">
+      <Filter>mbgl\math</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\platform\settings.hpp">
+      <Filter>mbgl\platform</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\platform\thread.hpp">
+      <Filter>mbgl\platform</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\renderer\query.hpp">
+      <Filter>mbgl\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\renderer\renderer.hpp">
+      <Filter>mbgl\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\renderer\renderer_frontend.hpp">
+      <Filter>mbgl\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\renderer\renderer_observer.hpp">
+      <Filter>mbgl\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\renderer\renderer_state.hpp">
+      <Filter>mbgl\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\storage\database_file_source.hpp">
+      <Filter>mbgl\storage</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\storage\file_source.hpp">
+      <Filter>mbgl\storage</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\storage\file_source_manager.hpp">
+      <Filter>mbgl\storage</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\storage\network_status.hpp">
+      <Filter>mbgl\storage</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\storage\offline.hpp">
+      <Filter>mbgl\storage</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\storage\online_file_source.hpp">
+      <Filter>mbgl\storage</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\storage\resource.hpp">
+      <Filter>mbgl\storage</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\storage\resource_options.hpp">
+      <Filter>mbgl\storage</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\storage\resource_transform.hpp">
+      <Filter>mbgl\storage</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\storage\response.hpp">
+      <Filter>mbgl\storage</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\style\color_ramp_property_value.hpp">
+      <Filter>mbgl\style</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\style\conversion.hpp">
+      <Filter>mbgl\style</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\style\conversion\color_ramp_property_value.hpp">
+      <Filter>mbgl\style\conversion</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\style\conversion\constant.hpp">
+      <Filter>mbgl\style\conversion</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\style\conversion\coordinate.hpp">
+      <Filter>mbgl\style\conversion</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\style\conversion\custom_geometry_source_options.hpp">
+      <Filter>mbgl\style\conversion</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\style\conversion\filter.hpp">
+      <Filter>mbgl\style\conversion</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\style\conversion\function.hpp">
+      <Filter>mbgl\style\conversion</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\style\conversion\geojson.hpp">
+      <Filter>mbgl\style\conversion</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\style\conversion\geojson_options.hpp">
+      <Filter>mbgl\style\conversion</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\style\conversion\get_json_type.hpp">
+      <Filter>mbgl\style\conversion</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\style\conversion\layer.hpp">
+      <Filter>mbgl\style\conversion</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\style\conversion\light.hpp">
+      <Filter>mbgl\style\conversion</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\style\conversion\position.hpp">
+      <Filter>mbgl\style\conversion</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\style\conversion\property_value.hpp">
+      <Filter>mbgl\style\conversion</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\style\conversion\rotation.hpp">
+      <Filter>mbgl\style\conversion</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\style\conversion\source.hpp">
+      <Filter>mbgl\style\conversion</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\style\conversion\tileset.hpp">
+      <Filter>mbgl\style\conversion</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\style\conversion\transition_options.hpp">
+      <Filter>mbgl\style\conversion</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\style\conversion_impl.hpp">
+      <Filter>mbgl\style</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\style\expression\assertion.hpp">
+      <Filter>mbgl\style\expression</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\style\expression\at.hpp">
+      <Filter>mbgl\style\expression</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\style\expression\boolean_operator.hpp">
+      <Filter>mbgl\style\expression</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\style\expression\case.hpp">
+      <Filter>mbgl\style\expression</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\style\expression\check_subtype.hpp">
+      <Filter>mbgl\style\expression</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\style\expression\coalesce.hpp">
+      <Filter>mbgl\style\expression</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\style\expression\coercion.hpp">
+      <Filter>mbgl\style\expression</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\style\expression\collator.hpp">
+      <Filter>mbgl\style\expression</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\style\expression\collator_expression.hpp">
+      <Filter>mbgl\style\expression</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\style\expression\comparison.hpp">
+      <Filter>mbgl\style\expression</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\style\expression\compound_expression.hpp">
+      <Filter>mbgl\style\expression</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\style\expression\dsl.hpp">
+      <Filter>mbgl\style\expression</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\style\expression\distance.hpp">
+      <Filter>mbgl\style\expression</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\style\expression\error.hpp">
+      <Filter>mbgl\style\expression</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\style\expression\expression.hpp">
+      <Filter>mbgl\style\expression</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\style\expression\find_zoom_curve.hpp">
+      <Filter>mbgl\style\expression</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\style\expression\format_expression.hpp">
+      <Filter>mbgl\style\expression</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\style\expression\format_section_override.hpp">
+      <Filter>mbgl\style\expression</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\style\expression\formatted.hpp">
+      <Filter>mbgl\style\expression</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\style\expression\get_covering_stops.hpp">
+      <Filter>mbgl\style\expression</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\style\expression\image.hpp">
+      <Filter>mbgl\style\expression</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\style\expression\image_expression.hpp">
+      <Filter>mbgl\style\expression</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\style\expression\in.hpp">
+      <Filter>mbgl\style\expression</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\style\expression\index_of.hpp">
+      <Filter>mbgl\style\expression</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\style\expression\interpolate.hpp">
+      <Filter>mbgl\style\expression</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\style\expression\interpolator.hpp">
+      <Filter>mbgl\style\expression</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\style\expression\is_constant.hpp">
+      <Filter>mbgl\style\expression</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\style\expression\is_expression.hpp">
+      <Filter>mbgl\style\expression</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\style\expression\length.hpp">
+      <Filter>mbgl\style\expression</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\style\expression\let.hpp">
+      <Filter>mbgl\style\expression</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\style\expression\literal.hpp">
+      <Filter>mbgl\style\expression</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\style\expression\match.hpp">
+      <Filter>mbgl\style\expression</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\style\expression\number_format.hpp">
+      <Filter>mbgl\style\expression</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\style\expression\parsing_context.hpp">
+      <Filter>mbgl\style\expression</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\style\expression\slice.hpp">
+      <Filter>mbgl\style\expression</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\style\expression\step.hpp">
+      <Filter>mbgl\style\expression</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\style\expression\type.hpp">
+      <Filter>mbgl\style\expression</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\style\expression\value.hpp">
+      <Filter>mbgl\style\expression</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\style\expression\within.hpp">
+      <Filter>mbgl\style\expression</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\style\filter.hpp">
+      <Filter>mbgl\style</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\style\image.hpp">
+      <Filter>mbgl\style</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\style\layer.hpp">
+      <Filter>mbgl\style</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\style\layer_properties.hpp">
+      <Filter>mbgl\style</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\style\layers\background_layer.hpp">
+      <Filter>mbgl\style\layers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\style\layers\circle_layer.hpp">
+      <Filter>mbgl\style\layers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\style\layers\fill_extrusion_layer.hpp">
+      <Filter>mbgl\style\layers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\style\layers\fill_layer.hpp">
+      <Filter>mbgl\style\layers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\style\layers\heatmap_layer.hpp">
+      <Filter>mbgl\style\layers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\style\layers\hillshade_layer.hpp">
+      <Filter>mbgl\style\layers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\style\layers\line_layer.hpp">
+      <Filter>mbgl\style\layers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\style\layers\raster_layer.hpp">
+      <Filter>mbgl\style\layers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\style\layers\symbol_layer.hpp">
+      <Filter>mbgl\style\layers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\style\light.hpp">
+      <Filter>mbgl\style</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\style\position.hpp">
+      <Filter>mbgl\style</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\style\property_expression.hpp">
+      <Filter>mbgl\style</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\style\property_value.hpp">
+      <Filter>mbgl\style</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\style\rotation.hpp">
+      <Filter>mbgl\style</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\style\source.hpp">
+      <Filter>mbgl\style</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\style\sources\custom_geometry_source.hpp">
+      <Filter>mbgl\style\sources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\style\sources\geojson_source.hpp">
+      <Filter>mbgl\style\sources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\style\sources\image_source.hpp">
+      <Filter>mbgl\style\sources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\style\sources\raster_dem_source.hpp">
+      <Filter>mbgl\style\sources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\style\sources\raster_source.hpp">
+      <Filter>mbgl\style\sources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\style\sources\vector_source.hpp">
+      <Filter>mbgl\style\sources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\style\style.hpp">
+      <Filter>mbgl\style</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\style\style_property.hpp">
+      <Filter>mbgl\style</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\style\transition_options.hpp">
+      <Filter>mbgl\style</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\style\types.hpp">
+      <Filter>mbgl\style</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\style\undefined.hpp">
+      <Filter>mbgl\style</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\tile\tile_id.hpp">
+      <Filter>mbgl\tile</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\tile\tile_necessity.hpp">
+      <Filter>mbgl\tile</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\util\async_request.hpp">
+      <Filter>mbgl\util</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\util\async_task.hpp">
+      <Filter>mbgl\util</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\util\char_array_buffer.hpp">
+      <Filter>mbgl\util</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\util\chrono.hpp">
+      <Filter>mbgl\util</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\util\client_options.hpp">
+      <Filter>mbgl\util</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\util\color.hpp">
+      <Filter>mbgl\util</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\util\compression.hpp">
+      <Filter>mbgl\util</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\util\constants.hpp">
+      <Filter>mbgl\util</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\util\containers.hpp">
+      <Filter>mbgl\util</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\util\convert.hpp">
+      <Filter>mbgl\util</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\util\default_style.hpp">
+      <Filter>mbgl\util</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\util\enum.hpp">
+      <Filter>mbgl\util</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\util\event.hpp">
+      <Filter>mbgl\util</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\util\exception.hpp">
+      <Filter>mbgl\util</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\util\expected.hpp">
+      <Filter>mbgl\util</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\util\feature.hpp">
+      <Filter>mbgl\util</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\util\font_stack.hpp">
+      <Filter>mbgl\util</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\util\geo.hpp">
+      <Filter>mbgl\util</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\util\geojson.hpp">
+      <Filter>mbgl\util</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\util\geometry.hpp">
+      <Filter>mbgl\util</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\util\identity.hpp">
+      <Filter>mbgl\util</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\util\ignore.hpp">
+      <Filter>mbgl\util</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\util\image.hpp">
+      <Filter>mbgl\util</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\util\immutable.hpp">
+      <Filter>mbgl\util</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\util\indexed_tuple.hpp">
+      <Filter>mbgl\util</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\util\instrumentation.hpp">
+      <Filter>mbgl\util</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\util\interpolate.hpp">
+      <Filter>mbgl\util</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\util\logging.hpp">
+      <Filter>mbgl\util</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\util\lru_cache.hpp">
+      <Filter>mbgl\util</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\util\noncopyable.hpp">
+      <Filter>mbgl\util</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\util\platform.hpp">
+      <Filter>mbgl\util</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\util\premultiply.hpp">
+      <Filter>mbgl\util</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\util\projection.hpp">
+      <Filter>mbgl\util</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\util\range.hpp">
+      <Filter>mbgl\util</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\util\run_loop.hpp">
+      <Filter>mbgl\util</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\util\scoped.hpp">
+      <Filter>mbgl\util</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\util\size.hpp">
+      <Filter>mbgl\util</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\util\string.hpp">
+      <Filter>mbgl\util</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\util\string_indexer.hpp">
+      <Filter>mbgl\util</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\util\tile_server_options.hpp">
+      <Filter>mbgl\util</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\util\thread.hpp">
+      <Filter>mbgl\util</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\util\tileset.hpp">
+      <Filter>mbgl\util</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\util\timer.hpp">
+      <Filter>mbgl\util</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\util\tiny_unordered_map.hpp">
+      <Filter>mbgl\util</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\util\traits.hpp">
+      <Filter>mbgl\util</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\util\type_list.hpp">
+      <Filter>mbgl\util</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\util\unitbezier.hpp">
+      <Filter>mbgl\util</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\util\util.hpp">
+      <Filter>mbgl\util</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\util\variant.hpp">
+      <Filter>mbgl\util</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\util\vectors.hpp">
+      <Filter>mbgl\util</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\util\work_request.hpp">
+      <Filter>mbgl\util</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\util\work_task.hpp">
+      <Filter>mbgl\util</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\util\work_task_impl.hpp">
+      <Filter>mbgl\util</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\gl\renderable_resource.hpp">
+      <Filter>mbgl\gl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\gl\renderer_backend.hpp">
+      <Filter>mbgl\gl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\layermanager\location_indicator_layer_factory.hpp">
+      <Filter>mbgl\layermanager</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\platform\gl_functions.hpp">
+      <Filter>mbgl\platform</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\style\layers\location_indicator_layer.hpp">
+      <Filter>mbgl\style\layers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\shaders\shader_source.hpp">
+      <Filter>mbgl\shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\shaders\shader_manifest.hpp">
+      <Filter>mbgl\shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\shaders\gl\shader_group_gl.hpp">
+      <Filter>mbgl\shaders\gl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\shaders\gl\prelude.hpp">
+      <Filter>mbgl\shaders\gl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\shaders\gl\background.hpp">
+      <Filter>mbgl\shaders\gl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\shaders\gl\drawable_background.hpp">
+      <Filter>mbgl\shaders\gl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\shaders\gl\drawable_background_pattern.hpp">
+      <Filter>mbgl\shaders\gl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\shaders\gl\drawable_circle.hpp">
+      <Filter>mbgl\shaders\gl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\shaders\gl\drawable_collision_box.hpp">
+      <Filter>mbgl\shaders\gl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\shaders\gl\drawable_collision_circle.hpp">
+      <Filter>mbgl\shaders\gl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\shaders\gl\drawable_debug.hpp">
+      <Filter>mbgl\shaders\gl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\shaders\gl\drawable_fill.hpp">
+      <Filter>mbgl\shaders\gl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\shaders\gl\drawable_fill_outline.hpp">
+      <Filter>mbgl\shaders\gl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\shaders\gl\drawable_fill_pattern.hpp">
+      <Filter>mbgl\shaders\gl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\shaders\gl\drawable_fill_outline_pattern.hpp">
+      <Filter>mbgl\shaders\gl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\shaders\gl\drawable_fill_outline_triangulated.hpp">
+      <Filter>mbgl\shaders\gl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\shaders\gl\drawable_fill_extrusion.hpp">
+      <Filter>mbgl\shaders\gl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\shaders\gl\drawable_fill_extrusion_pattern.hpp">
+      <Filter>mbgl\shaders\gl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\shaders\gl\drawable_heatmap.hpp">
+      <Filter>mbgl\shaders\gl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\shaders\gl\drawable_heatmap_texture.hpp">
+      <Filter>mbgl\shaders\gl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\shaders\gl\drawable_hillshade_prepare.hpp">
+      <Filter>mbgl\shaders\gl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\shaders\gl\drawable_hillshade.hpp">
+      <Filter>mbgl\shaders\gl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\shaders\gl\drawable_line.hpp">
+      <Filter>mbgl\shaders\gl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\shaders\gl\drawable_line_gradient.hpp">
+      <Filter>mbgl\shaders\gl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\shaders\gl\drawable_line_pattern.hpp">
+      <Filter>mbgl\shaders\gl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\shaders\gl\drawable_line_sdf.hpp">
+      <Filter>mbgl\shaders\gl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\shaders\gl\drawable_raster.hpp">
+      <Filter>mbgl\shaders\gl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\shaders\gl\drawable_symbol_icon.hpp">
+      <Filter>mbgl\shaders\gl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\shaders\gl\drawable_symbol_sdf.hpp">
+      <Filter>mbgl\shaders\gl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\shaders\gl\drawable_symbol_text_and_icon.hpp">
+      <Filter>mbgl\shaders\gl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\shaders\gl\background_pattern.hpp">
+      <Filter>mbgl\shaders\gl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\shaders\gl\circle.hpp">
+      <Filter>mbgl\shaders\gl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\shaders\gl\clipping_mask.hpp">
+      <Filter>mbgl\shaders\gl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\shaders\gl\collision_box.hpp">
+      <Filter>mbgl\shaders\gl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\shaders\gl\collision_circle.hpp">
+      <Filter>mbgl\shaders\gl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\shaders\gl\debug.hpp">
+      <Filter>mbgl\shaders\gl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\shaders\gl\fill_extrusion_pattern.hpp">
+      <Filter>mbgl\shaders\gl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\shaders\gl\fill_extrusion.hpp">
+      <Filter>mbgl\shaders\gl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\shaders\gl\fill_outline_pattern.hpp">
+      <Filter>mbgl\shaders\gl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\shaders\gl\fill_outline.hpp">
+      <Filter>mbgl\shaders\gl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\shaders\gl\fill_pattern.hpp">
+      <Filter>mbgl\shaders\gl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\shaders\gl\fill.hpp">
+      <Filter>mbgl\shaders\gl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\shaders\gl\heatmap_texture.hpp">
+      <Filter>mbgl\shaders\gl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\shaders\gl\heatmap.hpp">
+      <Filter>mbgl\shaders\gl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\shaders\gl\hillshade_prepare.hpp">
+      <Filter>mbgl\shaders\gl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\shaders\gl\hillshade.hpp">
+      <Filter>mbgl\shaders\gl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\shaders\gl\line_gradient.hpp">
+      <Filter>mbgl\shaders\gl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\shaders\gl\line_pattern.hpp">
+      <Filter>mbgl\shaders\gl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\shaders\gl\line_sdf.hpp">
+      <Filter>mbgl\shaders\gl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\shaders\gl\line.hpp">
+      <Filter>mbgl\shaders\gl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\shaders\gl\raster.hpp">
+      <Filter>mbgl\shaders\gl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\shaders\gl\symbol_icon.hpp">
+      <Filter>mbgl\shaders\gl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\shaders\gl\symbol_sdf_icon.hpp">
+      <Filter>mbgl\shaders\gl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\shaders\gl\symbol_sdf_text.hpp">
+      <Filter>mbgl\shaders\gl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\include\mbgl\shaders\gl\symbol_text_and_icon.hpp">
+      <Filter>mbgl\shaders\gl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\algorithm\update_renderables.hpp">
+      <Filter>mbgl\algorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\algorithm\update_tile_masks.hpp">
+      <Filter>mbgl\algorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\annotation\annotation_manager.hpp">
+      <Filter>mbgl\annotation</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\annotation\annotation_source.hpp">
+      <Filter>mbgl\annotation</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\annotation\annotation_tile.hpp">
+      <Filter>mbgl\annotation</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\annotation\fill_annotation_impl.hpp">
+      <Filter>mbgl\annotation</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\annotation\line_annotation_impl.hpp">
+      <Filter>mbgl\annotation</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\annotation\render_annotation_source.hpp">
+      <Filter>mbgl\annotation</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\annotation\shape_annotation_impl.hpp">
+      <Filter>mbgl\annotation</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\annotation\symbol_annotation_impl.hpp">
+      <Filter>mbgl\annotation</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\geometry\anchor.hpp">
+      <Filter>mbgl\geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\geometry\debug_font_data.hpp">
+      <Filter>mbgl\geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\geometry\dem_data.hpp">
+      <Filter>mbgl\geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\geometry\feature_index.hpp">
+      <Filter>mbgl\geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\geometry\line_atlas.hpp">
+      <Filter>mbgl\geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\gfx\attribute.hpp">
+      <Filter>mbgl\gfx</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\gfx\color_mode.hpp">
+      <Filter>mbgl\gfx</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\gfx\command_encoder.hpp">
+      <Filter>mbgl\gfx</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\gfx\cull_face_mode.hpp">
+      <Filter>mbgl\gfx</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\gfx\debug_group.hpp">
+      <Filter>mbgl\gfx</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\gfx\depth_mode.hpp">
+      <Filter>mbgl\gfx</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\gfx\draw_mode.hpp">
+      <Filter>mbgl\gfx</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\gfx\draw_scope.hpp">
+      <Filter>mbgl\gfx</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\gfx\index_buffer.hpp">
+      <Filter>mbgl\gfx</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\gfx\index_vector.hpp">
+      <Filter>mbgl\gfx</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\gfx\offscreen_texture.hpp">
+      <Filter>mbgl\gfx</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\gfx\program.hpp">
+      <Filter>mbgl\gfx</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\gfx\render_pass.hpp">
+      <Filter>mbgl\gfx</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\gfx\renderbuffer.hpp">
+      <Filter>mbgl\gfx</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\gfx\stencil_mode.hpp">
+      <Filter>mbgl\gfx</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\gfx\texture.hpp">
+      <Filter>mbgl\gfx</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\gfx\uniform.hpp">
+      <Filter>mbgl\gfx</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\gfx\upload_pass.hpp">
+      <Filter>mbgl\gfx</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\gfx\vertex_buffer.hpp">
+      <Filter>mbgl\gfx</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\gfx\vertex_vector.hpp">
+      <Filter>mbgl\gfx</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\layout\circle_layout.hpp">
+      <Filter>mbgl\layout</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\layout\clip_lines.hpp">
+      <Filter>mbgl\layout</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\layout\layout.hpp">
+      <Filter>mbgl\layout</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\layout\merge_lines.hpp">
+      <Filter>mbgl\layout</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\layout\pattern_layout.hpp">
+      <Filter>mbgl\layout</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\layout\symbol_feature.hpp">
+      <Filter>mbgl\layout</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\layout\symbol_instance.hpp">
+      <Filter>mbgl\layout</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\layout\symbol_layout.hpp">
+      <Filter>mbgl\layout</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\layout\symbol_projection.hpp">
+      <Filter>mbgl\layout</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\map\map_impl.hpp">
+      <Filter>mbgl\map</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\map\transform.hpp">
+      <Filter>mbgl\map</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\map\transform_state.hpp">
+      <Filter>mbgl\map</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\map\zoom_history.hpp">
+      <Filter>mbgl\map</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\programs\attributes.hpp">
+      <Filter>mbgl\programs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\programs\background_pattern_program.hpp">
+      <Filter>mbgl\programs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\programs\background_program.hpp">
+      <Filter>mbgl\programs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\programs\circle_program.hpp">
+      <Filter>mbgl\programs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\programs\clipping_mask_program.hpp">
+      <Filter>mbgl\programs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\programs\collision_box_program.hpp">
+      <Filter>mbgl\programs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\programs\collision_circle_program.hpp">
+      <Filter>mbgl\programs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\programs\debug_program.hpp">
+      <Filter>mbgl\programs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\programs\fill_extrusion_pattern_program.hpp">
+      <Filter>mbgl\programs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\programs\fill_extrusion_program.hpp">
+      <Filter>mbgl\programs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\programs\fill_outline_pattern_program.hpp">
+      <Filter>mbgl\programs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\programs\fill_outline_program.hpp">
+      <Filter>mbgl\programs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\programs\fill_pattern_program.hpp">
+      <Filter>mbgl\programs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\programs\fill_program.hpp">
+      <Filter>mbgl\programs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\programs\heatmap_program.hpp">
+      <Filter>mbgl\programs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\programs\heatmap_texture_program.hpp">
+      <Filter>mbgl\programs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\programs\hillshade_prepare_program.hpp">
+      <Filter>mbgl\programs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\programs\hillshade_program.hpp">
+      <Filter>mbgl\programs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\programs\line_gradient_program.hpp">
+      <Filter>mbgl\programs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\programs\line_pattern_program.hpp">
+      <Filter>mbgl\programs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\programs\line_program.hpp">
+      <Filter>mbgl\programs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\programs\line_sdf_program.hpp">
+      <Filter>mbgl\programs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\programs\program.hpp">
+      <Filter>mbgl\programs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\programs\program_parameters.hpp">
+      <Filter>mbgl\programs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\programs\programs.hpp">
+      <Filter>mbgl\programs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\programs\raster_program.hpp">
+      <Filter>mbgl\programs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\programs\segment.hpp">
+      <Filter>mbgl\programs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\programs\symbol_icon_program.hpp">
+      <Filter>mbgl\programs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\programs\symbol_program.hpp">
+      <Filter>mbgl\programs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\programs\symbol_sdf_icon_program.hpp">
+      <Filter>mbgl\programs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\programs\symbol_sdf_text_program.hpp">
+      <Filter>mbgl\programs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\programs\symbol_text_and_icon_program.hpp">
+      <Filter>mbgl\programs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\programs\textures.hpp">
+      <Filter>mbgl\programs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\programs\uniforms.hpp">
+      <Filter>mbgl\programs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\renderer\bucket.hpp">
+      <Filter>mbgl\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\renderer\bucket_parameters.hpp">
+      <Filter>mbgl\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\renderer\buckets\circle_bucket.hpp">
+      <Filter>mbgl\renderer\buckets</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\renderer\buckets\debug_bucket.hpp">
+      <Filter>mbgl\renderer\buckets</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\renderer\buckets\fill_bucket.hpp">
+      <Filter>mbgl\renderer\buckets</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\renderer\buckets\fill_extrusion_bucket.hpp">
+      <Filter>mbgl\renderer\buckets</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\renderer\buckets\heatmap_bucket.hpp">
+      <Filter>mbgl\renderer\buckets</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\renderer\buckets\hillshade_bucket.hpp">
+      <Filter>mbgl\renderer\buckets</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\renderer\buckets\line_bucket.hpp">
+      <Filter>mbgl\renderer\buckets</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\renderer\buckets\raster_bucket.hpp">
+      <Filter>mbgl\renderer\buckets</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\renderer\buckets\symbol_bucket.hpp">
+      <Filter>mbgl\renderer\buckets</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\renderer\cross_faded_property_evaluator.hpp">
+      <Filter>mbgl\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\renderer\data_driven_property_evaluator.hpp">
+      <Filter>mbgl\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\renderer\group_by_layout.hpp">
+      <Filter>mbgl\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\renderer\image_atlas.hpp">
+      <Filter>mbgl\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\renderer\image_manager.hpp">
+      <Filter>mbgl\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\renderer\image_manager_observer.hpp">
+      <Filter>mbgl\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\renderer\layers\render_background_layer.hpp">
+      <Filter>mbgl\renderer\layers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\renderer\layers\render_circle_layer.hpp">
+      <Filter>mbgl\renderer\layers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\renderer\layers\render_fill_extrusion_layer.hpp">
+      <Filter>mbgl\renderer\layers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\renderer\layers\render_fill_layer.hpp">
+      <Filter>mbgl\renderer\layers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\renderer\layers\render_heatmap_layer.hpp">
+      <Filter>mbgl\renderer\layers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\renderer\layers\render_hillshade_layer.hpp">
+      <Filter>mbgl\renderer\layers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\renderer\layers\render_line_layer.hpp">
+      <Filter>mbgl\renderer\layers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\renderer\layers\render_raster_layer.hpp">
+      <Filter>mbgl\renderer\layers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\renderer\layers\render_symbol_layer.hpp">
+      <Filter>mbgl\renderer\layers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\renderer\paint_parameters.hpp">
+      <Filter>mbgl\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\renderer\paint_property_binder.hpp">
+      <Filter>mbgl\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\renderer\paint_property_statistics.hpp">
+      <Filter>mbgl\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\renderer\pattern_atlas.hpp">
+      <Filter>mbgl\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\renderer\possibly_evaluated_property_value.hpp">
+      <Filter>mbgl\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\renderer\property_evaluation_parameters.hpp">
+      <Filter>mbgl\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\renderer\property_evaluator.hpp">
+      <Filter>mbgl\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\renderer\render_layer.hpp">
+      <Filter>mbgl\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\renderer\render_light.hpp">
+      <Filter>mbgl\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\renderer\render_orchestrator.hpp">
+      <Filter>mbgl\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\renderer\render_pass.hpp">
+      <Filter>mbgl\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\renderer\render_source.hpp">
+      <Filter>mbgl\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\renderer\render_source_observer.hpp">
+      <Filter>mbgl\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\renderer\render_static_data.hpp">
+      <Filter>mbgl\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\renderer\render_tile.hpp">
+      <Filter>mbgl\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\renderer\render_tree.hpp">
+      <Filter>mbgl\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\renderer\renderer_impl.hpp">
+      <Filter>mbgl\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\renderer\sources\render_custom_geometry_source.hpp">
+      <Filter>mbgl\renderer\sources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\renderer\sources\render_geojson_source.hpp">
+      <Filter>mbgl\renderer\sources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\renderer\sources\render_image_source.hpp">
+      <Filter>mbgl\renderer\sources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\renderer\sources\render_raster_dem_source.hpp">
+      <Filter>mbgl\renderer\sources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\renderer\sources\render_raster_source.hpp">
+      <Filter>mbgl\renderer\sources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\renderer\sources\render_tile_source.hpp">
+      <Filter>mbgl\renderer\sources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\renderer\sources\render_vector_source.hpp">
+      <Filter>mbgl\renderer\sources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\renderer\source_state.hpp">
+      <Filter>mbgl\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\renderer\style_diff.hpp">
+      <Filter>mbgl\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\renderer\tile_mask.hpp">
+      <Filter>mbgl\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\renderer\tile_parameters.hpp">
+      <Filter>mbgl\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\renderer\tile_pyramid.hpp">
+      <Filter>mbgl\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\renderer\tile_render_data.hpp">
+      <Filter>mbgl\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\renderer\transition_parameters.hpp">
+      <Filter>mbgl\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\renderer\update_parameters.hpp">
+      <Filter>mbgl\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\renderer\upload_parameters.hpp">
+      <Filter>mbgl\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\sprite\sprite_loader.hpp">
+      <Filter>mbgl\sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\sprite\sprite_loader_observer.hpp">
+      <Filter>mbgl\sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\sprite\sprite_parser.hpp">
+      <Filter>mbgl\sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\storage\asset_file_source.hpp">
+      <Filter>mbgl\storage</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\storage\mbtiles_file_source.hpp">
+      <Filter>mbgl\storage</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\storage\http_file_source.hpp">
+      <Filter>mbgl\storage</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\storage\local_file_source.hpp">
+      <Filter>mbgl\storage</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\storage\main_resource_loader.hpp">
+      <Filter>mbgl\storage</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\style\collection.hpp">
+      <Filter>mbgl\style</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\style\conversion\json.hpp">
+      <Filter>mbgl\style\conversion</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\style\conversion\stringify.hpp">
+      <Filter>mbgl\style\conversion</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\style\custom_tile_loader.hpp">
+      <Filter>mbgl\style</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\style\expression\dsl_impl.hpp">
+      <Filter>mbgl\style\expression</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\style\expression\util.hpp">
+      <Filter>mbgl\style\expression</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\style\sprite.hpp">
+      <Filter>mbgl\style</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\style\image_impl.hpp">
+      <Filter>mbgl\style</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\style\layer_impl.hpp">
+      <Filter>mbgl\style</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\style\layer_observer.hpp">
+      <Filter>mbgl\style</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\style\layers\background_layer_impl.hpp">
+      <Filter>mbgl\style\layers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\style\layers\background_layer_properties.hpp">
+      <Filter>mbgl\style\layers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\style\layers\circle_layer_impl.hpp">
+      <Filter>mbgl\style\layers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\style\layers\circle_layer_properties.hpp">
+      <Filter>mbgl\style\layers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\style\layers\fill_extrusion_layer_impl.hpp">
+      <Filter>mbgl\style\layers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\style\layers\fill_extrusion_layer_properties.hpp">
+      <Filter>mbgl\style\layers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\style\layers\fill_layer_impl.hpp">
+      <Filter>mbgl\style\layers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\style\layers\fill_layer_properties.hpp">
+      <Filter>mbgl\style\layers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\style\layers\heatmap_layer_impl.hpp">
+      <Filter>mbgl\style\layers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\style\layers\heatmap_layer_properties.hpp">
+      <Filter>mbgl\style\layers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\style\layers\hillshade_layer_impl.hpp">
+      <Filter>mbgl\style\layers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\style\layers\hillshade_layer_properties.hpp">
+      <Filter>mbgl\style\layers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\style\layers\line_layer_impl.hpp">
+      <Filter>mbgl\style\layers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\style\layers\line_layer_properties.hpp">
+      <Filter>mbgl\style\layers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\style\layers\raster_layer_impl.hpp">
+      <Filter>mbgl\style\layers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\style\layers\raster_layer_properties.hpp">
+      <Filter>mbgl\style\layers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\style\layers\symbol_layer_impl.hpp">
+      <Filter>mbgl\style\layers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\style\layers\symbol_layer_properties.hpp">
+      <Filter>mbgl\style\layers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\style\layout_property.hpp">
+      <Filter>mbgl\style</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\style\light_impl.hpp">
+      <Filter>mbgl\style</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\style\light_observer.hpp">
+      <Filter>mbgl\style</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\style\observer.hpp">
+      <Filter>mbgl\style</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\style\paint_property.hpp">
+      <Filter>mbgl\style</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\style\parser.hpp">
+      <Filter>mbgl\style</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\style\properties.hpp">
+      <Filter>mbgl\style</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\style\rapidjson_conversion.hpp">
+      <Filter>mbgl\style</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\style\source_impl.hpp">
+      <Filter>mbgl\style</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\style\source_observer.hpp">
+      <Filter>mbgl\style</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\style\sources\custom_geometry_source_impl.hpp">
+      <Filter>mbgl\style\sources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\style\sources\geojson_source_impl.hpp">
+      <Filter>mbgl\style\sources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\style\sources\image_source_impl.hpp">
+      <Filter>mbgl\style\sources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\style\sources\raster_source_impl.hpp">
+      <Filter>mbgl\style\sources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\style\sources\vector_source_impl.hpp">
+      <Filter>mbgl\style\sources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\style\style_impl.hpp">
+      <Filter>mbgl\style</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\style\layers\custom_layer_impl.hpp">
+      <Filter>mbgl\style\layers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\text\bidi.hpp">
+      <Filter>mbgl\text</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\text\check_max_angle.hpp">
+      <Filter>mbgl\text</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\text\collision_feature.hpp">
+      <Filter>mbgl\text</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\text\collision_index.hpp">
+      <Filter>mbgl\text</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\text\cross_tile_symbol_index.hpp">
+      <Filter>mbgl\text</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\text\get_anchors.hpp">
+      <Filter>mbgl\text</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\text\glyph.hpp">
+      <Filter>mbgl\text</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\text\glyph_atlas.hpp">
+      <Filter>mbgl\text</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\text\glyph_manager.hpp">
+      <Filter>mbgl\text</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\text\glyph_manager_observer.hpp">
+      <Filter>mbgl\text</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\text\glyph_pbf.hpp">
+      <Filter>mbgl\text</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\text\glyph_range.hpp">
+      <Filter>mbgl\text</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\text\language_tag.hpp">
+      <Filter>mbgl\text</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\text\local_glyph_rasterizer.hpp">
+      <Filter>mbgl\text</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\text\placement.hpp">
+      <Filter>mbgl\text</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\text\quads.hpp">
+      <Filter>mbgl\text</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\text\shaping.hpp">
+      <Filter>mbgl\text</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\text\tagged_string.hpp">
+      <Filter>mbgl\text</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\tile\custom_geometry_tile.hpp">
+      <Filter>mbgl\tile</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\tile\geojson_tile.hpp">
+      <Filter>mbgl\tile</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\tile\geojson_tile_data.hpp">
+      <Filter>mbgl\tile</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\tile\geometry_tile.hpp">
+      <Filter>mbgl\tile</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\tile\geometry_tile_data.hpp">
+      <Filter>mbgl\tile</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\tile\geometry_tile_worker.hpp">
+      <Filter>mbgl\tile</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\tile\raster_dem_tile.hpp">
+      <Filter>mbgl\tile</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\tile\raster_dem_tile_worker.hpp">
+      <Filter>mbgl\tile</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\tile\raster_tile.hpp">
+      <Filter>mbgl\tile</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\tile\raster_tile_worker.hpp">
+      <Filter>mbgl\tile</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\tile\tile.hpp">
+      <Filter>mbgl\tile</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\tile\tile_cache.hpp">
+      <Filter>mbgl\tile</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\tile\tile_loader.hpp">
+      <Filter>mbgl\tile</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\tile\tile_loader_impl.hpp">
+      <Filter>mbgl\tile</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\tile\tile_observer.hpp">
+      <Filter>mbgl\tile</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\tile\vector_tile.hpp">
+      <Filter>mbgl\tile</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\tile\vector_tile_data.hpp">
+      <Filter>mbgl\tile</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\util\bounding_volumes.hpp">
+      <Filter>mbgl\util</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\util\filesystem.hpp">
+      <Filter>mbgl\util</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\util\geometry_util.hpp">
+      <Filter>mbgl\util</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\util\grid_index.hpp">
+      <Filter>mbgl\util</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\util\hash.hpp">
+      <Filter>mbgl\util</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\util\http_header.hpp">
+      <Filter>mbgl\util</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\util\http_timeout.hpp">
+      <Filter>mbgl\util</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\util\i18n.hpp">
+      <Filter>mbgl\util</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\util\intersection_tests.hpp">
+      <Filter>mbgl\util</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\util\io.hpp">
+      <Filter>mbgl\util</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\util\literal.hpp">
+      <Filter>mbgl\util</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\util\longest_common_subsequence.hpp">
+      <Filter>mbgl\util</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\util\mapbox.hpp">
+      <Filter>mbgl\util</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\util\mat2.hpp">
+      <Filter>mbgl\util</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\util\mat3.hpp">
+      <Filter>mbgl\util</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\util\mat4.hpp">
+      <Filter>mbgl\util</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\util\math.hpp">
+      <Filter>mbgl\util</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\util\rapidjson.hpp">
+      <Filter>mbgl\util</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\util\rect.hpp">
+      <Filter>mbgl\util</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\util\std.hpp">
+      <Filter>mbgl\util</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\util\stopwatch.hpp">
+      <Filter>mbgl\util</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\util\thread_local.hpp">
+      <Filter>mbgl\util</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\util\thread_pool.hpp">
+      <Filter>mbgl\util</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\util\tile_coordinate.hpp">
+      <Filter>mbgl\util</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\util\tile_cover.hpp">
+      <Filter>mbgl\util</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\util\tile_cover_impl.hpp">
+      <Filter>mbgl\util</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\util\tile_range.hpp">
+      <Filter>mbgl\util</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\util\tiny_sdf.hpp">
+      <Filter>mbgl\util</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\util\token.hpp">
+      <Filter>mbgl\util</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\util\url.hpp">
+      <Filter>mbgl\util</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\util\utf.hpp">
+      <Filter>mbgl\util</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\util\version.hpp">
+      <Filter>mbgl\util</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\gl\attribute.hpp">
+      <Filter>mbgl\gl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\gl\command_encoder.hpp">
+      <Filter>mbgl\gl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\gl\context.hpp">
+      <Filter>mbgl\gl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\gl\fence.hpp">
+      <Filter>mbgl\gl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\gl\debugging_extension.hpp">
+      <Filter>mbgl\gl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\gl\defines.hpp">
+      <Filter>mbgl\gl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\gl\draw_scope_resource.hpp">
+      <Filter>mbgl\gl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\gl\enum.hpp">
+      <Filter>mbgl\gl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\gl\extension.hpp">
+      <Filter>mbgl\gl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\gl\framebuffer.hpp">
+      <Filter>mbgl\gl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\gl\index_buffer_resource.hpp">
+      <Filter>mbgl\gl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\gl\object.hpp">
+      <Filter>mbgl\gl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\gl\offscreen_texture.hpp">
+      <Filter>mbgl\gl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\gl\program.hpp">
+      <Filter>mbgl\gl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\renderer\layers\render_custom_layer.hpp">
+      <Filter>mbgl\renderer\layers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\gl\render_pass.hpp">
+      <Filter>mbgl\gl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\gl\renderbuffer_resource.hpp">
+      <Filter>mbgl\gl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\gl\resource_pool.hpp">
+      <Filter>mbgl\gl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\gl\state.hpp">
+      <Filter>mbgl\gl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\gl\texture.hpp">
+      <Filter>mbgl\gl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\gl\texture_resource.hpp">
+      <Filter>mbgl\gl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\gl\timestamp_query_extension.hpp">
+      <Filter>mbgl\gl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\gl\types.hpp">
+      <Filter>mbgl\gl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\gl\uniform.hpp">
+      <Filter>mbgl\gl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\gl\upload_pass.hpp">
+      <Filter>mbgl\gl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\gl\value.hpp">
+      <Filter>mbgl\gl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\gl\vertex_array.hpp">
+      <Filter>mbgl\gl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\gl\vertex_buffer_resource.hpp">
+      <Filter>mbgl\gl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\renderer\layers\render_location_indicator_layer.hpp">
+      <Filter>mbgl\renderer\layers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\style\layers\location_indicator_layer_impl.hpp">
+      <Filter>mbgl\style\layers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Repos\dandan\maplibre-native\src\mbgl\style\layers\location_indicator_layer_properties.hpp">
+      <Filter>mbgl\style\layers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Repos\dandan\maplibre-native\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{9BD7EC8F-4B41-33FC-ABA5-9081C02B8DCC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mbgl">
+      <UniqueIdentifier>{7242C528-831E-3A0A-AB82-638D8BE18C97}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mbgl\actor">
+      <UniqueIdentifier>{83B0F0E5-B6CE-3EBC-9B19-44670DE9C954}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mbgl\algorithm">
+      <UniqueIdentifier>{6304E5E0-9FA0-3E57-9F2F-244EC8C21CAA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mbgl\annotation">
+      <UniqueIdentifier>{5C1FD74C-1B73-3FCE-A86A-4A5AEF195B70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mbgl\geometry">
+      <UniqueIdentifier>{DE7B24F7-E1D5-3A46-A3C9-85F8A92665DC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mbgl\gfx">
+      <UniqueIdentifier>{9277129B-CB1E-332F-A688-F584DD114304}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mbgl\gl">
+      <UniqueIdentifier>{EE9AE60A-4B8C-385A-A3CC-48F09E035BF8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mbgl\layermanager">
+      <UniqueIdentifier>{82DBB5B0-839B-3207-8A97-EC1288918501}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mbgl\layout">
+      <UniqueIdentifier>{A4530CC7-00E9-3AA9-A720-04705F143623}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mbgl\map">
+      <UniqueIdentifier>{A8CB5DD3-FDF7-398A-8D01-8DED52090C34}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mbgl\math">
+      <UniqueIdentifier>{3F1EE693-F8AD-3A1E-9EA2-028EF902F0A0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mbgl\platform">
+      <UniqueIdentifier>{DD5ABFFE-A090-3D35-BFEA-DE07920184BB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mbgl\programs">
+      <UniqueIdentifier>{D86146E4-5E02-311E-BAB5-E1E2F4337D39}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mbgl\renderer">
+      <UniqueIdentifier>{C85A3248-E2F9-372A-9FB8-E84C6B43219D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mbgl\renderer\buckets">
+      <UniqueIdentifier>{C326B896-6AC7-31F3-AB59-D44D93D36B95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mbgl\renderer\layers">
+      <UniqueIdentifier>{388D054B-02E8-3E90-AB75-A78AC7AAC155}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mbgl\renderer\sources">
+      <UniqueIdentifier>{53355E24-7D05-3EC2-AD30-99BCD4540E79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mbgl\shaders">
+      <UniqueIdentifier>{3DE07B65-F219-357D-908C-6FC504F3B9F7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mbgl\shaders\gl">
+      <UniqueIdentifier>{68D1FA9F-D406-3CAB-B5C8-1F37DC295015}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mbgl\sprite">
+      <UniqueIdentifier>{6728B56A-42B4-3DCE-8A4C-4BEFF70EC51E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mbgl\storage">
+      <UniqueIdentifier>{F391C8F6-57A7-3A72-BE73-C1BDABD70659}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mbgl\style">
+      <UniqueIdentifier>{DFD83FB1-AB4D-3680-BB6F-185665A604DC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mbgl\style\conversion">
+      <UniqueIdentifier>{326A85BF-1FBB-3279-BAA7-FFD13CA994A9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mbgl\style\expression">
+      <UniqueIdentifier>{D18D8421-A9D8-3CC8-A7CC-3CFC0D11509C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mbgl\style\layers">
+      <UniqueIdentifier>{EBFD1099-BF2F-3C06-9FCA-A975964D39B1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mbgl\style\sources">
+      <UniqueIdentifier>{B2A7DFD0-049B-3DCC-A904-4D5EA5AE1975}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mbgl\text">
+      <UniqueIdentifier>{02D71E65-3366-37AD-81ED-67BB763BD037}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mbgl\tile">
+      <UniqueIdentifier>{ECFCA324-CEAC-39FF-B6E3-B49149CCA4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mbgl\util">
+      <UniqueIdentifier>{2B17FD6E-E40D-3B78-B0BD-D5D003F18599}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
