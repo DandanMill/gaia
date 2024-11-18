@@ -1,10 +1,10 @@
 [versions]
-androidGradlePlugin = "8.5.2"
+androidGradlePlugin = "8.7.2"
 espresso = "3.6.1"
 
 [libraries]
 androidGradlePlugin = { group = "com.android.tools.build", name = "gradle", version.ref = "androidGradlePlugin"}
-supportConstraintLayout = { group = "androidx.constraintlayout", name = "constraintlayout", version = "2.1.4" }
+supportConstraintLayout = { group = "androidx.constraintlayout", name = "constraintlayout", version = "2.2.0" }
 testRunner = { group = "androidx.test.ext", name = "junit", version = "1.2.1" }
 testEspressoCore = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espresso" }
 testRules = { group = "androidx.test", name = "rules", version = "1.6.1" }
